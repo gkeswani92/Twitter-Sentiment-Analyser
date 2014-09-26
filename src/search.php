@@ -52,10 +52,23 @@
 function pre_process($line)
 {	
 	$mod_tweet="";
+	global $negsmiley, $possmiley;
+	
 	if ($line!="")
 	{
+		#Remove special characters at the end of words and leaves out smileys
+		$words=explode(" ",$line);
+		for($x=0;$x<count($words);$x++)
+		{
+			$word=$words[$x];
+			if (!(in_array($word,$negsmiley) or in_array($word,$possmiley)))
+				$word=preg_replace('/(^([^a-zA-Z0-9])*|([^a-zA-Z0-9])*$)/', '', $word);
+			$mod_tweet=$mod_tweet." ".$word;
+		}
+		$tweet=trim($mod_tweet);
+		
 		#Removes white spaces and trims the tweet
-		$tweet=strtolower(trim($line));
+		$tweet=strtolower(trim($tweet));
 		
 		#Removes the user name
 		$tweet=$tweet." ";
@@ -67,6 +80,7 @@ function pre_process($line)
 			$tweet=substr_replace($tweet,"",$apos,$spos-$apos);
 			$acount = $acount - 1;
 		}
+		$tweet=trim($tweet);
 		
 		#Remove the hash sign and keep the hash tag
 		$hcount=substr_count($tweet,'#');
@@ -76,19 +90,8 @@ function pre_process($line)
 			$tweet=substr_replace($tweet,'',$hpos,1);
 			$hcount = $hcount-1;
 		}
-		
 		$tweet=trim($tweet);
 		
-		#Remove special characters at the end of words
-		$words=explode(" ",$tweet);
-		for($x=0;$x<count($words);$x++)
-		{
-			$word=preg_replace('/(^([^a-zA-Z0-9])*|([^a-zA-Z0-9])*$)/', '', $words[$x]);
-			$mod_tweet=$mod_tweet." ".$word;
-			
-		}
-		$tweet=trim($mod_tweet);
-			
 		#Removes words starting with numbers
 		$tweet=trim(str_replace(range(0,9),'',$tweet));
 		
