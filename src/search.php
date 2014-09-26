@@ -1,59 +1,4 @@
-<?php
-	// Connect to the API with OAuth tokens
-	require 'app_tokens.php';  
-	require 'tmhOAuth.php';
-
-	//Creating the connection using the 4 keys included in app_tokens.php
-	$connection = new tmhOAuth(array(
-	  'consumer_key' => $consumer_key,
-	  'consumer_secret' => $consumer_secret,
-	  'user_token' => $user_token,
-	  'user_secret' => $user_secret
-	)); 
-
-	//search/tweets API uses GET method and mentioned URL
-	$method='GET';
-	$url='/1.1/search/tweets';
-
-	$query_mod=$query." -http"." -https"." -RT";
-
-	//result_type can be recent, popular or mixed 
-	$array=array("lang"=>"en","count"=>"50","q"=>$query_mod,"result_type"=>"mixed");
-
-	//Creating the connection and storing it in code
-	$code = $connection->request($method, $connection->url($url),$array);
-
-	// Display the response HTTP code
-	$code = $connection->response['code'];
-
-	// Display the API response as an array
-	//print "<strong>Response:</strong><pre style='word-wrap: break-word'>";
-
-	//To decode the complete json file. Print this to see total details
-	$objJson=json_decode($connection->response['response'],true);
-	
-	$data = array();
-	$picture = array();
-	$name = array();
-	$x=0;
-	
-	//To retrieve only the text information from the JSON file
-	foreach($objJson["statuses"] as $status) 
-	{
-		$data[] = array("text" => $status["text"]);
-		$picture[$status["text"]]=$objJson["statuses"][$x]["user"]["profile_image_url"];
-		$name[$status["text"]]=$objJson["statuses"][$x]["user"]["name"];
-		$x=$x+1;
-	}
-
-	//To send the tweets to the tweets.txt file
-	$tweets = fopen("Classifier/Tweets.txt","w");
-	foreach($data as $x=>$x_value) {
-			fwrite($tweets,$x_value['text']);
-			fwrite($tweets,"\n");
-	}
-	fclose($tweets);
-	
+<?php	
 #Function to pre-process tweets from the tweets file
 function pre_process($line)
 {	
@@ -255,179 +200,333 @@ function naive_bayes($str)
 		return 2;
 	}
 }
-	#Creates the associative array for the training set
-	$trained_file = fopen("Classifier/Trained Set.txt","r");
-	$trained_set=array();
-	while(!feof($trained_file))
+
+#Connect to the API with OAuth tokens
+require 'app_tokens.php';  
+require 'tmhOAuth.php';
+
+#Creating the connection using the 4 keys included in app_tokens.php
+$connection = new tmhOAuth(array(
+  'consumer_key' => $consumer_key,
+  'consumer_secret' => $consumer_secret,
+  'user_token' => $user_token,
+  'user_secret' => $user_secret
+)); 
+
+#search/tweets API uses GET method and mentioned URL
+$method='GET';
+$url='/1.1/search/tweets';
+
+#If query field is empty
+if(strcmp($query,"")==0)
+	echo "<script>alert('Please enter a query');</script>";
+#If query field is not empty
+else
+{	
+	$query_mod=$query." -http"." -https"." -RT";
+
+	#Variable declaration
+	$z=0; $x=0;
+	$id=array(); $data = array(); $picture = array(); $name = array();
+	$code=0;
+
+	#To send multiple requests to twitter
+	while($z<=1)
 	{
-		$line=fgets($trained_file);
-		if ($line != null)
+		#result_type can be recent, popular or mixed 
+		if($z==0)
+			$array=array("lang"=>"en","count"=>"100","q"=>$query_mod,"result_type"=>"mixed");
+		else
+			$array=array("lang"=>"en","count"=>"100","q"=>$query_mod,"result_type"=>"recent","max_id"=>min($id));
+			
+		#Creating the connection and storing it in code
+		$code = $connection->request($method, $connection->url($url),$array);
+
+		#Display the response HTTP code
+		$code = $connection->response['code'];
+
+		#If twitter response is as expected
+		if($code == 200)
 		{
-			#Finds position of the comma's
-			$com1=strpos($line,',');
-			$com2=strpos($line,',',$com1+1);
-				
-			#Extract the word and the count
-			$word=substr($line,0,$com1);
-			$pos_count=substr($line,$com1+1,$com2-$com1-1);
-			$neg_count=substr($line,$com2+1);
-				
-			#Calculate the probability of word being positive
-			$pos_prob=$pos_count/($pos_count+$neg_count);
-			$trained_set[$word]=$pos_prob;
-		}
-	}
-	fclose($trained_file);
-	
-	#Creates an array for the negation list
-	$negation_file=fopen("Classifier/Negation List.txt","r");
-	$negation=array();
-	while(!feof($negation_file))
-	{
-		$line=fgets($negation_file);
-		if ($line != null)
-			array_push($negation,$line);
-	}
-	fclose($negation_file);
+			//To decode the complete json file. Print this to see total details
+			$objJson=json_decode($connection->response['response'],true);
 
-	#Creates an array for the positive smiley list
-	$possmiley_file=fopen("Classifier/Emoticon List Positive.txt","r");
-	$possmiley=array();
-	while(!feof($possmiley_file))
-	{
-		$line=fgets($possmiley_file);
-		if ($line != null)
-			array_push($possmiley,$line);
-	}
-	fclose($possmiley_file);
+			$y=0;
 
-	#Creates an array for the negative smiley list
-	$negsmiley_file=fopen("Classifier/Emoticon List Negative.txt","r");
-	$negsmiley=array();
-	while(!feof($negsmiley_file))
-	{
-		$line=fgets($negsmiley_file);
-		if ($line != null)
-			array_push($negsmiley,$line);
-	}
-	fclose($negsmiley_file);
-
-	#Creates an array for the adverbs list
-	$adverb_file=fopen("Classifier/Adverb List.txt","r");
-	$adverb=array();
-	while(!feof($adverb_file))
-	{
-		$line=fgets($adverb_file);
-		if ($line != null)
-		{
-			$com1=strpos($line,',');
-			$word=substr($line,0,$com1);
-			$degree=substr($line,$com1+1);
-			$adverb[$word]=$degree;
-		}
-	}
-	fclose($adverb_file);
-
-	#Trims the strings from the \n and \r
-	$negation = array_map('trim', $negation);
-	$possmiley = array_map('trim', $possmiley);
-	$negsmiley = array_map('trim', $negsmiley);
-	$adverb = array_map('trim', $adverb);
-	
-	#Variables for sentiment and tweet storage
-	$tweet_arr=array();
-	$sentiment_arr=array();
-	$p=0;$n=0;
-	
-	####To store the logic being used for classification
-	$logic = fopen("Classifier/Logic.txt","w");
-	
-	#Opens the file with tweets to read
-	$original = fopen("Classifier/Tweets.txt","r");
-	while(!feof($original))
-	{
-		$line=fgets($original);
-		fwrite($logic,"Tweet: $line");
-		if($line!="")
-		{
-			$mod=pre_process($line);
-			$sent=naive_bayes($mod);
-			if ($sent == 0)
+			//To retrieve only the text information from the JSON file
+			foreach($objJson["statuses"] as $status) 
 			{
-				array_push($tweet_arr,$line);
-				array_push($sentiment_arr,0);
-				$p=$p+1;
+				$data[] = array("text" => $status["text"]);
+				$picture[$status["text"]]=$objJson["statuses"][$y]["user"]["profile_image_url"];
+				$name[$status["text"]]=$objJson["statuses"][$y]["user"]["name"];
+				$id[$x] = $objJson["statuses"][$y]["id_str"];
+				$x=$x+1;
+				$y=$y+1;
 			}
-			elseif ($sent == 4)
-			{
-				array_push($tweet_arr,$line);
-				array_push($sentiment_arr,4);
-				$n=$n+1;
-			}
-			else 
-			{}
+			$z=$z+1;
 		}
-	}
-	fclose($original);
-	
-	#Calls the JavaScript function for google charts
-	echo "<center><div id='piechart_3d' style='width: 500px; height: 275px;'>";
-	echo "<script>drawChart(".$p.",".$n.");</script></div></center>";
-	
-	$tweet_arr = array_map('trim', $tweet_arr);
-	
-	#Displays the tweets in the table with the proper colour for sentiment
-	for($x=0;$x<count($tweet_arr);$x=$x+1)
-	{
-		if(array_key_exists($tweet_arr[$x],$picture))
+		else
 		{
-			$link=$picture[$tweet_arr[$x]];
-			if(intval($sentiment_arr[$x])==0)
-			{
-				echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#E1F5A9' style='border-color:green'>";
-				echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
-				echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
-			}
-			else
-			{
-				echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#F5A9A9' style='border-color:red'>";
-				echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
-				echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
-			}
+			break;
 		}
 	}
 	
-	#Adding the values of $p and $n to the trend analysis table
-	$con=mysqli_connect("localhost","twit_sentiment","chelsea12","twit_sentiment");
-	if (mysqli_connect_errno())
-		echo "Failed to connect to MySQL: " . mysqli_connect_error();
-
-	$posperc=intval($p*100/($p+$n));
-	$negperc=intval($n*100/($p+$n));
-	$d=date("Y-m-d");
-	
-	$sql_search="SELECT * from trend_analysis WHERE query='$query' and date='$d'";
-	$result=mysqli_query($con,$sql_search);
-	
-	#If previous record is found for the same day
-	if($result)
+	#Classify only if proper response was received from twitter
+	if($code==200)
 	{
-		while($row = mysqli_fetch_array($result))
-		{
-			$posperc = intval(($posperc + $row['positive'])/2);
-			$negperc = intval(($negperc + $row['negative'])/2);
+		#To send the tweets to the tweets.txt file
+		$tweets = fopen("Classifier/Tweets.txt","w");
+		foreach($data as $x=>$x_value) {
+				fwrite($tweets,$x_value['text']);
+				fwrite($tweets,"\n");
 		}
-		$sql_delete="DELETE FROM `trend_analysis` WHERE query='$query' and date='$d'";
-		$result_delete=mysqli_query($con,$sql_delete);
-	}
-	
-	#Inserts new entry OR updates the current entry
-	$sql="INSERT INTO trend_analysis (query, date, positive, negative) VALUES('$query','$d','$posperc','$negperc')";
-	$result=mysqli_query($con,$sql);
-	if(!$result)
-		die('Error: '.mysqli_error($con));
+		fclose($tweets);
 		
-	mysqli_close($con);
-	
-	#print_r($picture);
+		#Creates the associative array for the training set
+		$trained_file = fopen("Classifier/Trained Set.txt","r");
+		$trained_set=array();
+		while(!feof($trained_file))
+		{
+			$line=fgets($trained_file);
+			if ($line != null)
+			{
+				#Finds position of the comma's
+				$com1=strpos($line,',');
+				$com2=strpos($line,',',$com1+1);
+					
+				#Extract the word and the count
+				$word=substr($line,0,$com1);
+				$pos_count=substr($line,$com1+1,$com2-$com1-1);
+				$neg_count=substr($line,$com2+1);
+					
+				#Calculate the probability of word being positive
+				$pos_prob=$pos_count/($pos_count+$neg_count);
+				$trained_set[$word]=$pos_prob;
+			}
+		}
+		fclose($trained_file);
+
+		#Creates an array for the negation list
+		$negation_file=fopen("Classifier/Negation List.txt","r");
+		$negation=array();
+		while(!feof($negation_file))
+		{
+			$line=fgets($negation_file);
+			if ($line != null)
+				array_push($negation,$line);
+		}
+		fclose($negation_file);
+
+		#Creates an array for the positive smiley list
+		$possmiley_file=fopen("Classifier/Emoticon List Positive.txt","r");
+		$possmiley=array();
+		while(!feof($possmiley_file))
+		{
+			$line=fgets($possmiley_file);
+			if ($line != null)
+				array_push($possmiley,$line);
+		}
+		fclose($possmiley_file);
+
+		#Creates an array for the negative smiley list
+		$negsmiley_file=fopen("Classifier/Emoticon List Negative.txt","r");
+		$negsmiley=array();
+		while(!feof($negsmiley_file))
+		{
+			$line=fgets($negsmiley_file);
+			if ($line != null)
+				array_push($negsmiley,$line);
+		}
+		fclose($negsmiley_file);
+
+		#Creates an array for the adverbs list
+		$adverb_file=fopen("Classifier/Adverb List.txt","r");
+		$adverb=array();
+		while(!feof($adverb_file))
+		{
+			$line=fgets($adverb_file);
+			if ($line != null)
+			{
+				$com1=strpos($line,',');
+				$word=substr($line,0,$com1);
+				$degree=substr($line,$com1+1);
+				$adverb[$word]=$degree;
+			}
+		}
+		fclose($adverb_file);
+
+		#Trims the strings from the \n and \r
+		$negation = array_map('trim', $negation);
+		$possmiley = array_map('trim', $possmiley);
+		$negsmiley = array_map('trim', $negsmiley);
+		$adverb = array_map('trim', $adverb);
+
+		#Variables for sentiment and tweet storage
+		$tweet_arr=array();
+		$sentiment_arr=array();
+		$p=0;$n=0;
+
+		#To store the logic being used for classification
+		$logic = fopen("Classifier/Logic.txt","w");
+
+		#Opens the file with tweets to read
+		$original = fopen("Classifier/Tweets.txt","r");
+		while(!feof($original))
+		{
+			$line=fgets($original);
+			fwrite($logic,"Tweet: $line");
+			if($line!="")
+			{
+				$mod=pre_process($line);
+				$sent=naive_bayes($mod);
+				if ($sent == 0)
+				{
+					array_push($tweet_arr,$line);
+					array_push($sentiment_arr,0);
+					$p=$p+1;
+				}
+				elseif ($sent == 4)
+				{
+					array_push($tweet_arr,$line);
+					array_push($sentiment_arr,4);
+					$n=$n+1;
+				}
+				else 
+				{}
+			}
+		}
+		fclose($original);
+
+		#Calls the JavaScript function for google charts
+		echo "<center><div id='piechart_3d' style='width: 500px; height: 275px;'>";
+		echo "<script>drawChart(".$p.",".$n.");</script></div></center>";
+
+		$tweet_arr = array_map('trim', $tweet_arr);
+
+		#Displays the tweets in the table with the proper colour for sentiment
+		for($x=0;$x<count($tweet_arr);$x=$x+1)
+		{
+			if(array_key_exists($tweet_arr[$x],$picture))
+			{
+				$link=$picture[$tweet_arr[$x]];
+				if(intval($sentiment_arr[$x])==0)
+				{
+					echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#E1F5A9' style='border-color:green'>";
+					echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+					echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
+				}
+				else
+				{
+					echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#F5A9A9' style='border-color:red'>";
+					echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+					echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
+				}
+			}
+		}
+
+		#Adding the values of $p and $n to the trend analysis table
+		$con=mysqli_connect("localhost","twit_sentiment","chelsea12","twit_sentiment");
+		if (mysqli_connect_errno())
+			echo "Failed to connect to MySQL: " . mysqli_connect_error();
+
+		#Adding percentage of p and n to database
+		$posperc=intval($p*100/($p+$n));
+		$negperc=intval($n*100/($p+$n));
+		$d=date("Y-m-d");
+
+		$sql_search="SELECT * from trend_analysis WHERE query='$query' and date='$d'";
+		$result=mysqli_query($con,$sql_search);
+
+		#If previous record is found for the same day
+		if($result)
+		{
+			while($row = mysqli_fetch_array($result))
+			{
+				$posperc = intval(($posperc + $row['positive'])/2);
+				$negperc = intval(($negperc + $row['negative'])/2);
+			}
+			$sql_delete="DELETE FROM `trend_analysis` WHERE query='$query' and date='$d'";
+			$result_delete=mysqli_query($con,$sql_delete);
+		}
+
+		#Inserts new entry OR updates the current entry
+		$sql="INSERT INTO trend_analysis (query, date, positive, negative) VALUES('$query','$d','$posperc','$negperc')";
+		$result=mysqli_query($con,$sql);
+		if(!$result)
+			die('Error: '.mysqli_error($con));
+			
+		#Adds an escape character before every ' and '' in the tweet
+		for($x=0;$x<count($tweet_arr);$x=$x+1)
+		{
+			$str=$tweet_arr[$x];
+			$i=0;
+			while(strpos($str,"'",$i)!=FALSE or strpos($str,'\"',$i)!=FALSE)
+			{
+				if(strpos($str,"'",$i)!=-1)
+					$pos=strpos($tweet_arr[$x],"'",$i);
+				else
+					$pos=strpos($tweet_arr[$x],'"',$i);
+				$i=$pos+2;
+				$tweet_arr[$x] = substr_replace($tweet_arr[$x], '\\', $pos,0);
+				if($i>strlen($tweet_arr[$x])-1)
+				{
+					break;
+				}
+			}
+		}
+			
+		#Inserts tweets with the query into the historical database
+		for($x=0;$x<count($tweet_arr);$x=$x+1)
+		{
+			if(array_key_exists($tweet_arr[$x],$picture) and array_key_exists($tweet_arr[$x],$name))
+			{
+				$tweet=$tweet_arr[$x];
+				$sql1="INSERT INTO tweets (query, name, image, tweet, sentiment) VALUES('$query','$name[$tweet]','$picture[$tweet]','$tweet_arr[$x]','$sentiment_arr[$x]')";
+				$result1=mysqli_query($con,$sql1);
+				//if(!$result1)
+					//die('Error: '.mysqli_error($con));
+			}
+		}
+			
+		mysqli_close($con);
+	}
+	#If not able to connect to twitter
+	else
+	{
+		$i=0;
+		echo "<center><b><br>Sorry we are not able to connect to twitter right now. Showing most recent historical data</b></center><br>";
+		
+		#Retrieving the historical tweets from database
+		$con=mysqli_connect("localhost","twit_sentiment","chelsea12","twit_sentiment");
+		if (mysqli_connect_errno())
+			echo "Failed to connect to MySQL: " . mysqli_connect_error();
+		$sql_search="SELECT * from tweets WHERE query='$query' LIMIT 50";
+		$result=mysqli_query($con,$sql_search);
+		#Display name, image and tweet with sentiment
+		if($result)
+		{
+			while($row = mysqli_fetch_array($result))
+			{
+				$link=$row['image'];
+				if(intval($row['sentiment'])==0)
+				{
+					echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#E1F5A9' style='border-color:green'>";
+					echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+					echo "<td style='vertical-align:middle'><b>".$row['name'].":</b>".$row['tweet']."<br></td></tr></table>";
+					$i=$i+1;
+				}
+				else
+				{
+					echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#F5A9A9' style='border-color:red'>";
+					echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+					echo "<td style='vertical-align:middle'><b>".$row['name'].":</b>".$row['tweet']."<br></td></tr></table>";
+					$i=$i+1;
+				}
+			}
+		}
+		#If no historical results were found
+		if($i == 0)
+			echo "<center><b><br>Sorry. No historical data found</b></center><br>";
+	}
+}
 ?>
