@@ -70,6 +70,72 @@ function naive_bayes($str)
 		fwrite($answers_file,"2,$str");
 }
 
+#Function to pre-process tweets from the tweets file
+function pre_process($line)
+{
+	global $modified;
+	
+	#Removes white spaces and trims the tweet
+	$tweet=strtolower(trim($line));
+	
+	#Removes the user name
+	$tweet=$tweet." ";
+	$acount=substr_count($tweet,'@');
+	while($acount !=0)
+	{
+		$apos=strpos($tweet,'@');
+		$spos=strpos($tweet,' ',$apos);
+		$tweet=substr_replace($tweet,"",$apos,$spos-$apos);
+		$acount = $acount - 1;
+	}
+	
+	#Remove the hash sign and keep the hash tag
+	$hcount=substr_count($tweet,'#');
+	while ($hcount != 0)
+	{
+		$hpos=strpos($tweet,'#');
+		$tweet=substr_replace($tweet,'',$hpos,1);
+		$hcount = $hcount-1;
+	}
+	
+	$tweet=trim($tweet);
+	$mod_tweet="";
+	
+	#Remove special characters at the end of words
+	$words=explode(" ",$tweet);
+	for($x=0;$x<count($words);$x++)
+	{
+		$word=preg_replace('/(^([^a-zA-Z0-9])*|([^a-zA-Z0-9])*$)/', '', $words[$x]);
+		$mod_tweet=$mod_tweet." ".$word;
+		
+	}
+	$tweet=trim($mod_tweet);
+	
+	#Removes multiple characters occurring together
+	$words=explode(" ",$tweet);
+	$mod_tweet="";
+	for($x=0;$x<count($words);$x++)
+	{
+		$current=$words[$x];
+		$a=0; $b=1; $c=2;
+		while ($c <= strlen($current))
+		{
+			if(substr($current,$a,1) == substr($current,$b,1) and substr($current,$b,1) == substr($current,$c,1))
+			{
+				$current=substr_replace($current,'',$c,1);
+			}
+			else
+			{
+				$a = $a + 1;
+				$b = $b + 1;
+				$c = $c + 1;
+			}
+		}	
+		$mod_tweet=$mod_tweet." ".$current;
+	}
+fwrite($modified,$mod_tweet."\n");
+}
+
 #Creates the associative array for the training set
 $trained_file = fopen("Classifier/Trained Set.txt","r");
 $trained_set=array();
@@ -148,9 +214,21 @@ fclose($trained_file);
 	$possmiley = array_map('trim', $possmiley);
 	$negsmiley = array_map('trim', $negsmiley);
 	$adverb = array_map('trim', $adverb);
-
-	#Opens the file with tweets to read and answers to write
-	$tweets_file = fopen("Classifier/Tweets.txt","r");
+	
+	#Opens the file with tweets to read and pre-processed tweets to write
+	$original = fopen("Classifier/Tweets.txt","r");
+	$modified = fopen("Classifier/Pre-Processed.txt","w");
+	while(!feof($original))
+	{
+		$line=fgets($original);
+		if($line!="")
+			pre_process($line);
+	}
+	fclose($original);
+	fclose($modified);
+	
+	#Opens the file with pre-processed tweets to read and answers to write
+	$tweets_file = fopen("Classifier/Pre-Processed.txt","r");
 	$answers_file= fopen("Classifier/Answers.txt","w");
 	while(!feof($tweets_file))
 	{
@@ -212,7 +290,6 @@ fclose($trained_file);
 
 	$posperc=intval($p*100/($p+$n));
 	$negperc=intval($n*100/($p+$n));
-	echo "New:".$posperc." ".$negperc."<br>";
 	$d=date("Y-m-d");
 	
 	$sql_search="SELECT * from trend_analysis WHERE query='$query' and date='$d'";
@@ -223,13 +300,11 @@ fclose($trained_file);
 	{
 		while($row = mysqli_fetch_array($result))
 		{
-			echo "Old:".$row['positive']." ".$row['negative']."<br>";
 			$posperc = intval(($posperc + $row['positive'])/2);
 			$negperc = intval(($negperc + $row['negative'])/2);
 		}
 		$sql_delete="DELETE FROM `trend_analysis` WHERE query='$query' and date='$d'";
 		$result_delete=mysqli_query($con,$sql_delete);
-		echo "Modified:".$posperc." ".$negperc."<br>";
 
 	}
 	

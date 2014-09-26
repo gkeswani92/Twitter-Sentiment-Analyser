@@ -70,8 +70,8 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="index.php">Home</a></li>
-									<li><a href="historical.php">Trend Analysis</a></li>
+									<li><a href="index.php">Live Analysis</a></li>
+									<li><a href="historical.php">Historical Analysis</a></li>
 									<li class="current_page_item"><a href="#">About Us</a></li>
 								</ul>
 							</nav>

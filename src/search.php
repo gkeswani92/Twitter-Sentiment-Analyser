@@ -18,7 +18,7 @@
 	$query_mod=$query." -http"." -https"." -RT";
 
 	//result_type can be recent, popular or mixed 
-	$array=array("lang"=>"en","count"=>"200","q"=>$query_mod,"result_type"=>"mixed");
+	$array=array("lang"=>"en","count"=>"50","q"=>$query_mod,"result_type"=>"mixed");
 
 	//Creating the connection and storing it in code
 	$code = $connection->request($method, $connection->url($url),$array);

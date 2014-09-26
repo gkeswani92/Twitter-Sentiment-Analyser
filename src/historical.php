@@ -130,8 +130,8 @@
 							</div>
 							<nav id="nav">
 								<ul>
-									<li><a href="index.php">Home</a></li>
-									<li class="current_page_item"><a href="#">Trend Analysis</a></li>
+									<li><a href="index.php">Live Analysis</a></li>
+									<li class="current_page_item"><a href="#">Historical Analysis</a></li>
 									<li><a href="about.php">About us</a></li>
 								</ul>
 							</nav>

@@ -112,8 +112,8 @@
 							</div>
 							<nav id="nav">
 								<ul>
-									<li class="current_page_item"><a href="#">Home</a></li>
-									<li><a href="historical.php">Trend Analysis</a></li>
+									<li class="current_page_item"><a href="#">Live Analysis</a></li>
+									<li><a href="historical.php">Historical Analysis</a></li>
 									<li><a href="about.php">About us</a></li>
 								</ul>
 							</nav>
@@ -131,4 +131,3 @@
 			</div>
 	</body>
 </html>
-
