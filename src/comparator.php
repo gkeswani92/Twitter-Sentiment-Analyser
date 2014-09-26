@@ -92,6 +92,7 @@
 									<li><a href="index.php">Live Analysis</a></li>
 									<li><a href="historical.php">Historical Analysis</a></li>
 									<li class="current_page_item"><a href="#">Compare Brands</a></li>
+									<li><a href="maps.php">Location Based</a></li>
 									<li><a href="about.php">About us</a></li>
 								</ul>
 							</nav>

@@ -1,0 +1,1222 @@
+Tweet: Remember, Arsene Wenger didn't think we needed to buy a striker in January. #afc
+No Special Characters:  Remember Arsene Wenger didn't think we needed to buy a striker in January afc  
+Lower case: remember arsene wenger didn't think we needed to buy a striker in january afc 
+No User name: remember arsene wenger didn't think we needed to buy a striker in january afc  
+Remove hash tag: remember arsene wenger didn't think we needed to buy a striker in january afc 
+No words starting with numbers: remember arsene wenger didn't think we needed to buy a striker in january afc 
+No multiple characters:  remember arsene wenger didn't think we needed to buy a striker in january afc 
+Only more than 3 characters:  remember arsene wenger didn't think we needed to buy striker in january afc 
+Pre-Processed:  remember arsene wenger didn't think we needed to buy striker in january afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: The decisive weeks have started. Need to take the next step tomorrow in Stoke..... #afc #COYG #poldi #aha #redarmy
+No Special Characters:  The decisive weeks have started Need to take the next step tomorrow in Stoke afc COYG poldi aha redarmy  
+Lower case: the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+No User name: the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy  
+Remove hash tag: the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+No words starting with numbers: the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+No multiple characters:  the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+Only more than 3 characters:  the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+Pre-Processed:  the decisive weeks have started need to take the next step tomorrow in stoke afc coyg poldi aha redarmy 
+Word found in trained set: decisive 
+P(Positive): 0.83333333333333 
+P(Negative): 0.16666666666667 
+P(Positive|Total): 0.83333333333333 
+P(Negative|Total): 0.16666666666667 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: Brilliant by The Ox, hopeless by Giroud. #afc
+No Special Characters:  Brilliant by The Ox hopeless by Giroud afc  
+Lower case: brilliant by the ox hopeless by giroud afc 
+No User name: brilliant by the ox hopeless by giroud afc  
+Remove hash tag: brilliant by the ox hopeless by giroud afc 
+No words starting with numbers: brilliant by the ox hopeless by giroud afc 
+No multiple characters:  brilliant by the ox hopeless by giroud afc 
+Only more than 3 characters:  brilliant by the ox hopeless by giroud afc 
+Pre-Processed:  brilliant by the ox hopeless by giroud afc 
+Word found in trained set: brilliant 
+P(Positive): 0.75171065493646 
+P(Negative): 0.24828934506354 
+P(Positive|Total): 0.75171065493646 
+P(Negative|Total): 0.24828934506354 
+Word found in trained set: hopeless 
+P(Positive): 0.32089552238806 
+P(Negative): 0.67910447761194 
+P(Positive|Total): 1.0726061773245 
+P(Negative|Total): 0.92739382267548 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Usual story against any big physical team - we get bounced off the ball like weebles. #afc
+No Special Characters:  Usual story against any big physical team  we get bounced off the ball like weebles afc  
+Lower case: usual story against any big physical team  we get bounced off the ball like weebles afc 
+No User name: usual story against any big physical team  we get bounced off the ball like weebles afc  
+Remove hash tag: usual story against any big physical team  we get bounced off the ball like weebles afc 
+No words starting with numbers: usual story against any big physical team  we get bounced off the ball like weebles afc 
+No multiple characters:  usual story against any big physical team  we get bounced off the ball like weebles afc 
+Only more than 3 characters:  usual story against any big physical team we get bounced off the ball like weebles afc 
+Pre-Processed:  usual story against any big physical team we get bounced off the ball like weebles afc 
+Word found in trained set: like 
+P(Positive): 0.77126892369195 
+P(Negative): 0.22873107630805 
+P(Positive|Total): 0.77126892369195 
+P(Negative|Total): 0.22873107630805 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: Mesut Özil: Has created more chances (73) than any other player in Europe's top 5 leagues this season; Hazard second (70) #AFC
+No Special Characters:  Mesut zil Has created more chances 73 than any other player in Europe's top 5 leagues this season Hazard second 70 AFC  
+Lower case: mesut zil has created more chances 73 than any other player in europe's top 5 leagues this season hazard second 70 afc 
+No User name: mesut zil has created more chances 73 than any other player in europe's top 5 leagues this season hazard second 70 afc  
+Remove hash tag: mesut zil has created more chances 73 than any other player in europe's top 5 leagues this season hazard second 70 afc 
+No words starting with numbers: mesut zil has created more chances  than any other player in europe's top  leagues this season hazard second  afc 
+No multiple characters:  mesut zil has created more chances  than any other player in europe's top  leagues this season hazard second  afc 
+Only more than 3 characters:  mesut zil has created more chances than any other player in europe's top leagues this season hazard second afc 
+Pre-Processed:  mesut zil has created more chances than any other player in europe's top leagues this season hazard second afc 
+Word found in trained set: top 
+P(Positive): 0.56357185097575 
+P(Negative): 0.43642814902425 
+P(Positive|Total): 0.56357185097575 
+P(Negative|Total): 0.43642814902425 
+Word found in trained set: hazard 
+P(Positive): 0.45 
+P(Negative): 0.55 
+P(Positive|Total): 1.0135718509758 
+P(Negative|Total): 0.98642814902425 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: OK, Maestro @MesutOzil1088 - show all the critics just how good you really are. #afc
+No Special Characters:  OK Maestro MesutOzil1088  show all the critics just how good you really are afc  
+Lower case: ok maestro mesutozil1088  show all the critics just how good you really are afc 
+No User name: ok maestro mesutozil1088  show all the critics just how good you really are afc  
+Remove hash tag: ok maestro mesutozil1088  show all the critics just how good you really are afc 
+No words starting with numbers: ok maestro mesutozil  show all the critics just how good you really are afc 
+No multiple characters:  ok maestro mesutozil  show all the critics just how good you really are afc 
+Only more than 3 characters:  ok maestro mesutozil show all the critics just how good you really are afc 
+Pre-Processed:  ok maestro mesutozil show all the critics just how good you really are afc 
+Word found in trained set: critics 
+P(Positive): 0.57575757575758 
+P(Negative): 0.42424242424242 
+P(Positive|Total): 0.57575757575758 
+P(Negative|Total): 0.42424242424242 
+Word found in trained set: good 
+P(Positive): 0.67955504925283 
+P(Negative): 0.32044495074717 
+P(Positive|Total): 1.2553126250104 
+P(Negative|Total): 0.74468737498959 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: Liverpool will go above Arsenal with a win at Southampton later. The gap between both before the 5-1 was 8 points. #afc
+No Special Characters:  Liverpool will go above Arsenal with a win at Southampton later The gap between both before the 5-1 was 8 points afc  
+Lower case: liverpool will go above arsenal with a win at southampton later the gap between both before the 5-1 was 8 points afc 
+No User name: liverpool will go above arsenal with a win at southampton later the gap between both before the 5-1 was 8 points afc  
+Remove hash tag: liverpool will go above arsenal with a win at southampton later the gap between both before the 5-1 was 8 points afc 
+No words starting with numbers: liverpool will go above arsenal with a win at southampton later the gap between both before the - was  points afc 
+No multiple characters:  liverpool will go above arsenal with a win at southampton later the gap between both before the - was  points afc 
+Only more than 3 characters:  liverpool will go above arsenal with win at southampton later the gap between both before the was points afc 
+Pre-Processed:  liverpool will go above arsenal with win at southampton later the gap between both before the was points afc 
+Word found in trained set: win 
+P(Positive): 0.59681462911075 
+P(Negative): 0.40318537088925 
+P(Positive|Total): 0.59681462911075 
+P(Negative|Total): 0.40318537088925 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #Nextmatch AFC CUP : Arema Indonesia vs Hanoi T&amp;T Vietnam. Kanjuruhan Stadium, Tuesday 11th March 2014. kick off 04.00 pm
+No Special Characters:  Nextmatch AFC CUP  Arema Indonesia vs Hanoi T&amp;T Vietnam Kanjuruhan Stadium Tuesday 11th March 2014 kick off 04.00 pm  
+Lower case: nextmatch afc cup  arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday 11th march 2014 kick off 04.00 pm 
+No User name: nextmatch afc cup  arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday 11th march 2014 kick off 04.00 pm  
+Remove hash tag: nextmatch afc cup  arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday 11th march 2014 kick off 04.00 pm 
+No words starting with numbers: nextmatch afc cup  arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday th march  kick off . pm 
+No multiple characters:  nextmatch afc cup  arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday th march  kick off . pm 
+Only more than 3 characters:  nextmatch afc cup arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday th march kick off pm 
+Pre-Processed:  nextmatch afc cup arema indonesia vs hanoi t&amp;t vietnam kanjuruhan stadium tuesday th march kick off pm 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Breaking: Arsenal making very strong enquires on Diego Costa, we understand that one of Sunday papers will also run this story. #AFC
+No Special Characters:  Breaking Arsenal making very strong enquires on Diego Costa we understand that one of Sunday papers will also run this story AFC  
+Lower case: breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+No User name: breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc  
+Remove hash tag: breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+No words starting with numbers: breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+No multiple characters:  breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+Only more than 3 characters:  breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+Pre-Processed:  breaking arsenal making very strong enquires on diego costa we understand that one of sunday papers will also run this story afc 
+Word found in trained set: breaking 
+P(Positive): 0.3038728897716 
+P(Negative): 0.6961271102284 
+P(Positive|Total): 0.3038728897716 
+P(Negative|Total): 0.6961271102284 
+Word found in trained set: strong 
+P(Positive): 0.53522504892368 
+P(Negative): 0.46477495107632 
+Adverb found in trained set: very 
+P(Positive|Adverb): 0.85636007827789 
+P(Negative|Adverb): 0.74363992172211 
+P(Positive|Total): 1.1602329680495 
+P(Negative|Total): 1.4397670319505 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: "Let's all do the Wenger" go on then Stoke fans: Win 3 league titles, 4 F.A Cups, 4 community shields and learn to speak 6 languages...
+No Special Characters:  Let's all do the Wenger go on then Stoke fans Win 3 league titles 4 F.A Cups 4 community shields and learn to speak 6 languages  
+Lower case: let's all do the wenger go on then stoke fans win 3 league titles 4 f.a cups 4 community shields and learn to speak 6 languages 
+No User name: let's all do the wenger go on then stoke fans win 3 league titles 4 f.a cups 4 community shields and learn to speak 6 languages  
+Remove hash tag: let's all do the wenger go on then stoke fans win 3 league titles 4 f.a cups 4 community shields and learn to speak 6 languages 
+No words starting with numbers: let's all do the wenger go on then stoke fans win  league titles  f.a cups  community shields and learn to speak  languages 
+No multiple characters:  let's all do the wenger go on then stoke fans win  league titles  f.a cups  community shields and learn to speak  languages 
+Only more than 3 characters:  let's all do the wenger go on then stoke fans win league titles f.a cups community shields and learn to speak languages 
+Pre-Processed:  let's all do the wenger go on then stoke fans win league titles f.a cups community shields and learn to speak languages 
+Word found in trained set: fans 
+P(Positive): 0.597539543058 
+P(Negative): 0.402460456942 
+P(Positive|Total): 0.597539543058 
+P(Negative|Total): 0.402460456942 
+Word found in trained set: win 
+P(Positive): 0.59681462911075 
+P(Negative): 0.40318537088925 
+P(Positive|Total): 1.1943541721687 
+P(Negative|Total): 0.80564582783125 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Alex Oxlade-Chamberlain (2) was the only Arsenal player to create more than 1 chance against Stoke - he came on in 74th minute #AFC
+No Special Characters:  Alex Oxlade-Chamberlain 2 was the only Arsenal player to create more than 1 chance against Stoke  he came on in 74th minute AFC  
+Lower case: alex oxlade-chamberlain 2 was the only arsenal player to create more than 1 chance against stoke  he came on in 74th minute afc 
+No User name: alex oxlade-chamberlain 2 was the only arsenal player to create more than 1 chance against stoke  he came on in 74th minute afc  
+Remove hash tag: alex oxlade-chamberlain 2 was the only arsenal player to create more than 1 chance against stoke  he came on in 74th minute afc 
+No words starting with numbers: alex oxlade-chamberlain  was the only arsenal player to create more than  chance against stoke  he came on in th minute afc 
+No multiple characters:  alex oxlade-chamberlain  was the only arsenal player to create more than  chance against stoke  he came on in th minute afc 
+Only more than 3 characters:  alex oxlade-chamberlain was the only arsenal player to create more than chance against stoke he came on in th minute afc 
+Pre-Processed:  alex oxlade-chamberlain was the only arsenal player to create more than chance against stoke he came on in th minute afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Surprised Chamberlain, Flamini &amp; Özil don't start. Rare opportunity for Podolski, whilst great to see Gibbs is fit. #afc
+No Special Characters:  Surprised Chamberlain Flamini amp zil don't start Rare opportunity for Podolski whilst great to see Gibbs is fit afc  
+Lower case: surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+No User name: surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc  
+Remove hash tag: surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+No words starting with numbers: surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+No multiple characters:  surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+Only more than 3 characters:  surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+Pre-Processed:  surprised chamberlain flamini amp zil don't start rare opportunity for podolski whilst great to see gibbs is fit afc 
+Word found in trained set: great 
+P(Positive): 0.75453695042095 
+P(Negative): 0.24546304957905 
+P(Positive|Total): 0.75453695042095 
+P(Negative|Total): 0.24546304957905 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: Wenger: "I never tell Özil: 'You have to win us the game'. It's down to the team performance. I just want him to enjoy it &amp; play well." #AFC
+No Special Characters:  Wenger I never tell zil You have to win us the game It's down to the team performance I just want him to enjoy it amp play well AFC  
+Lower case: wenger i never tell zil you have to win us the game it's down to the team performance i just want him to enjoy it amp play well afc 
+No User name: wenger i never tell zil you have to win us the game it's down to the team performance i just want him to enjoy it amp play well afc  
+Remove hash tag: wenger i never tell zil you have to win us the game it's down to the team performance i just want him to enjoy it amp play well afc 
+No words starting with numbers: wenger i never tell zil you have to win us the game it's down to the team performance i just want him to enjoy it amp play well afc 
+No multiple characters:  wenger i never tell zil you have to win us the game it's down to the team performance i just want him to enjoy it amp play well afc 
+Only more than 3 characters:  wenger never tell zil you have to win us the game it's down to the team performance just want him to enjoy it amp play well afc 
+Pre-Processed:  wenger never tell zil you have to win us the game it's down to the team performance just want him to enjoy it amp play well afc 
+Word found in trained set: win 
+P(Positive): 0.59681462911075 
+P(Negative): 0.40318537088925 
+P(Positive|Total): 0.59681462911075 
+P(Negative|Total): 0.40318537088925 
+Word found in trained set: enjoy 
+P(Positive): 0.7728373948981 
+P(Negative): 0.2271626051019 
+P(Positive|Total): 1.3696520240089 
+P(Negative|Total): 0.63034797599114 
+Word found in trained set: well 
+P(Positive): 0.54903915881073 
+P(Negative): 0.45096084118927 
+P(Positive|Total): 1.9186911828196 
+P(Negative|Total): 1.0813088171804 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: GOAL: Stoke 1 - 0 Arsenal. Jon Walters converts the penalty for Stoke City. #SCFC #AFC
+No Special Characters:  GOAL Stoke 1  0 Arsenal Jon Walters converts the penalty for Stoke City SCFC AFC  
+Lower case: goal stoke 1  0 arsenal jon walters converts the penalty for stoke city scfc afc 
+No User name: goal stoke 1  0 arsenal jon walters converts the penalty for stoke city scfc afc  
+Remove hash tag: goal stoke 1  0 arsenal jon walters converts the penalty for stoke city scfc afc 
+No words starting with numbers: goal stoke    arsenal jon walters converts the penalty for stoke city scfc afc 
+No multiple characters:  goal stoke    arsenal jon walters converts the penalty for stoke city scfc afc 
+Only more than 3 characters:  goal stoke arsenal jon walters converts the penalty for stoke city scfc afc 
+Pre-Processed:  goal stoke arsenal jon walters converts the penalty for stoke city scfc afc 
+Word found in trained set: penalty 
+P(Positive): 0.45098039215686 
+P(Negative): 0.54901960784314 
+P(Positive|Total): 0.45098039215686 
+P(Negative|Total): 0.54901960784314 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Breaking News: Santi Cazorla set to sign a new deal at Arsenal {Mail} #AFC
+No Special Characters:  Breaking News Santi Cazorla set to sign a new deal at Arsenal Mail AFC  
+Lower case: breaking news santi cazorla set to sign a new deal at arsenal mail afc 
+No User name: breaking news santi cazorla set to sign a new deal at arsenal mail afc  
+Remove hash tag: breaking news santi cazorla set to sign a new deal at arsenal mail afc 
+No words starting with numbers: breaking news santi cazorla set to sign a new deal at arsenal mail afc 
+No multiple characters:  breaking news santi cazorla set to sign a new deal at arsenal mail afc 
+Only more than 3 characters:  breaking news santi cazorla set to sign new deal at arsenal mail afc 
+Pre-Processed:  breaking news santi cazorla set to sign new deal at arsenal mail afc 
+Word found in trained set: breaking 
+P(Positive): 0.3038728897716 
+P(Negative): 0.6961271102284 
+P(Positive|Total): 0.3038728897716 
+P(Negative|Total): 0.6961271102284 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Truth is I cant bear this anymore. I am really not as proud to be an Arsenal fan anymore #AFC
+No Special Characters:  Truth is I cant bear this anymore I am really not as proud to be an Arsenal fan anymore AFC  
+Lower case: truth is i cant bear this anymore i am really not as proud to be an arsenal fan anymore afc 
+No User name: truth is i cant bear this anymore i am really not as proud to be an arsenal fan anymore afc  
+Remove hash tag: truth is i cant bear this anymore i am really not as proud to be an arsenal fan anymore afc 
+No words starting with numbers: truth is i cant bear this anymore i am really not as proud to be an arsenal fan anymore afc 
+No multiple characters:  truth is i cant bear this anymore i am really not as proud to be an arsenal fan anymore afc 
+Only more than 3 characters:  truth is cant bear this anymore am really not as proud to be an arsenal fan anymore afc 
+Pre-Processed:  truth is cant bear this anymore am really not as proud to be an arsenal fan anymore afc 
+Word found in trained set: proud 
+P(Positive): 0.86198884758364 
+P(Negative): 0.13801115241636 
+P(Positive|Total): 0.86198884758364 
+P(Negative|Total): 0.13801115241636 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: @David_AFC_ lol ok signing a injury proned CDM isnt a fail ok
+No Special Characters:  David_AFC lol ok signing a injury proned CDM isnt a fail ok  
+Lower case: david_afc lol ok signing a injury proned cdm isnt a fail ok 
+No User name: david_afc lol ok signing a injury proned cdm isnt a fail ok  
+Remove hash tag: david_afc lol ok signing a injury proned cdm isnt a fail ok 
+No words starting with numbers: david_afc lol ok signing a injury proned cdm isnt a fail ok 
+No multiple characters:  david_afc lol ok signing a injury proned cdm isnt a fail ok 
+Only more than 3 characters:  david_afc lol ok signing injury proned cdm isnt fail ok 
+Pre-Processed:  david_afc lol ok signing injury proned cdm isnt fail ok 
+Word found in trained set: injury 
+P(Positive): 0.18396226415094 
+P(Negative): 0.81603773584906 
+P(Positive|Total): 0.18396226415094 
+P(Negative|Total): 0.81603773584906 
+Word found in trained set: fail 
+P(Positive): 0.17239467849224 
+P(Negative): 0.82760532150776 
+Negation detected: isnt 
+P(Positive|Negation): 0.82760532150776 
+P(Negative|Negation): 0.17239467849224 
+P(Positive|Total): 1.0115675856587 
+P(Negative|Total): 0.9884324143413 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: When Ramsey returns it will be a massive boast but think to much will be expected from him.
+No Special Characters:  When Ramsey returns it will be a massive boast but think to much will be expected from him  
+Lower case: when ramsey returns it will be a massive boast but think to much will be expected from him 
+No User name: when ramsey returns it will be a massive boast but think to much will be expected from him  
+Remove hash tag: when ramsey returns it will be a massive boast but think to much will be expected from him 
+No words starting with numbers: when ramsey returns it will be a massive boast but think to much will be expected from him 
+No multiple characters:  when ramsey returns it will be a massive boast but think to much will be expected from him 
+Only more than 3 characters:  when ramsey returns it will be massive boast but think to much will be expected from him 
+Pre-Processed:  when ramsey returns it will be massive boast but think to much will be expected from him 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @Arsenal #Wenger is a specialist so he deserves his multi million salary. Unfortunately though, his speciality is in FAILING!! #AFC #Arsenal
+No Special Characters:  Arsenal Wenger is a specialist so he deserves his multi million salary Unfortunately though his speciality is in FAILING AFC Arsenal  
+Lower case: arsenal wenger is a specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+No User name: arsenal wenger is a specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal  
+Remove hash tag: arsenal wenger is a specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+No words starting with numbers: arsenal wenger is a specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+No multiple characters:  arsenal wenger is a specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+Only more than 3 characters:  arsenal wenger is specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+Pre-Processed:  arsenal wenger is specialist so he deserves his multi million salary unfortunately though his speciality is in failing afc arsenal 
+Word found in trained set: unfortunately 
+P(Positive): 0.098543853708093 
+P(Negative): 0.90145614629191 
+P(Positive|Total): 0.098543853708093 
+P(Negative|Total): 0.90145614629191 
+Word found in trained set: failing 
+P(Positive): 0.15686274509804 
+P(Negative): 0.84313725490196 
+P(Positive|Total): 0.25540659880613 
+P(Negative|Total): 1.7445934011939 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Woke up as we lost to stoke :/ think it's time to buy a striker.. #AFC #Gooners
+No Special Characters:  Woke up as we lost to stoke :/ think it's time to buy a striker AFC Gooners  
+Lower case: woke up as we lost to stoke :/ think it's time to buy a striker afc gooners 
+No User name: woke up as we lost to stoke :/ think it's time to buy a striker afc gooners  
+Remove hash tag: woke up as we lost to stoke :/ think it's time to buy a striker afc gooners 
+No words starting with numbers: woke up as we lost to stoke :/ think it's time to buy a striker afc gooners 
+No multiple characters:  woke up as we lost to stoke :/ think it's time to buy a striker afc gooners 
+Only more than 3 characters:  woke up as we lost to stoke :/ think it's time to buy striker afc gooners 
+Pre-Processed:  woke up as we lost to stoke :/ think it's time to buy striker afc gooners 
+Word found in trained set: lost 
+P(Positive): 0.16312628842879 
+P(Negative): 0.83687371157121 
+P(Positive|Total): 0.16312628842879 
+P(Negative|Total): 0.83687371157121 
+Negative smiley Detected: :/ 
+P(Positive): 0.16312628842879 
+P(Negative|Smiley): 1.5868737115712 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: I will be leaving all my group.....except afc.. Thats a final decision!
+No Special Characters:  I will be leaving all my group.....except afc Thats a final decision  
+Lower case: i will be leaving all my group.....except afc thats a final decision 
+No User name: i will be leaving all my group.....except afc thats a final decision  
+Remove hash tag: i will be leaving all my group.....except afc thats a final decision 
+No words starting with numbers: i will be leaving all my group.....except afc thats a final decision 
+No multiple characters:  i will be leaving all my group..except afc thats a final decision 
+Only more than 3 characters:  will be leaving all my group..except afc thats final decision 
+Pre-Processed:  will be leaving all my group..except afc thats final decision 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #AFC you are allowed to play at some point today
+No Special Characters:  AFC you are allowed to play at some point today  
+Lower case: afc you are allowed to play at some point today 
+No User name: afc you are allowed to play at some point today  
+Remove hash tag: afc you are allowed to play at some point today 
+No words starting with numbers: afc you are allowed to play at some point today 
+No multiple characters:  afc you are allowed to play at some point today 
+Only more than 3 characters:  afc you are allowed to play at some point today 
+Pre-Processed:  afc you are allowed to play at some point today 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: He lost it finally "@TejiroOvie: Wenger out #AFC"
+No Special Characters:  He lost it finally TejiroOvie Wenger out AFC  
+Lower case: he lost it finally tejiroovie wenger out afc 
+No User name: he lost it finally tejiroovie wenger out afc  
+Remove hash tag: he lost it finally tejiroovie wenger out afc 
+No words starting with numbers: he lost it finally tejiroovie wenger out afc 
+No multiple characters:  he lost it finally tejiroovie wenger out afc 
+Only more than 3 characters:  he lost it finally tejiroovie wenger out afc 
+Pre-Processed:  he lost it finally tejiroovie wenger out afc 
+Word found in trained set: lost 
+P(Positive): 0.16312628842879 
+P(Negative): 0.83687371157121 
+P(Positive|Total): 0.16312628842879 
+P(Negative|Total): 0.83687371157121 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Bollocks to this, I'm having an Alan Partridge blast. Your new motor's a bad omen, @chicomeeco #afc
+No Special Characters:  Bollocks to this I'm having an Alan Partridge blast Your new motor's a bad omen chicomeeco afc  
+Lower case: bollocks to this i'm having an alan partridge blast your new motor's a bad omen chicomeeco afc 
+No User name: bollocks to this i'm having an alan partridge blast your new motor's a bad omen chicomeeco afc  
+Remove hash tag: bollocks to this i'm having an alan partridge blast your new motor's a bad omen chicomeeco afc 
+No words starting with numbers: bollocks to this i'm having an alan partridge blast your new motor's a bad omen chicomeeco afc 
+No multiple characters:  bollocks to this i'm having an alan partridge blast your new motor's a bad omen chicomeeco afc 
+Only more than 3 characters:  bollocks to this i'm having an alan partridge blast your new motor's bad omen chicomeeco afc 
+Pre-Processed:  bollocks to this i'm having an alan partridge blast your new motor's bad omen chicomeeco afc 
+Word found in trained set: bad 
+P(Positive): 0.20068065796937 
+P(Negative): 0.79931934203063 
+P(Positive|Total): 0.20068065796937 
+P(Negative|Total): 0.79931934203063 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: @InsideThierry should moan, but as of yet he hasn't
+No Special Characters:  InsideThierry should moan but as of yet he hasn't  
+Lower case: insidethierry should moan but as of yet he hasn't 
+No User name: insidethierry should moan but as of yet he hasn't  
+Remove hash tag: insidethierry should moan but as of yet he hasn't 
+No words starting with numbers: insidethierry should moan but as of yet he hasn't 
+No multiple characters:  insidethierry should moan but as of yet he hasn't 
+Only more than 3 characters:  insidethierry should moan but as of yet he hasn't 
+Pre-Processed:  insidethierry should moan but as of yet he hasn't 
+Word found in trained set: moan 
+P(Positive): 0.39024390243902 
+P(Negative): 0.60975609756098 
+P(Positive|Total): 0.39024390243902 
+P(Negative|Total): 0.60975609756098 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @Strongieee__33 I wouldn't be surprised if they finished higher than that tbh.
+No Special Characters:  Strongieee__33 I wouldn't be surprised if they finished higher than that tbh  
+Lower case: strongieee__33 i wouldn't be surprised if they finished higher than that tbh 
+No User name: strongieee__33 i wouldn't be surprised if they finished higher than that tbh  
+Remove hash tag: strongieee__33 i wouldn't be surprised if they finished higher than that tbh 
+No words starting with numbers: strongieee__ i wouldn't be surprised if they finished higher than that tbh 
+No multiple characters:  strongiee__ i wouldn't be surprised if they finished higher than that tbh 
+Only more than 3 characters:  strongiee__ wouldn't be surprised if they finished higher than that tbh 
+Pre-Processed:  strongiee__ wouldn't be surprised if they finished higher than that tbh 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @stevewillmott this @CarlBovis_AFC moron is a 24 carat bell-end
+No Special Characters:  stevewillmott this CarlBovis_AFC moron is a 24 carat bell-end  
+Lower case: stevewillmott this carlbovis_afc moron is a 24 carat bell-end 
+No User name: stevewillmott this carlbovis_afc moron is a 24 carat bell-end  
+Remove hash tag: stevewillmott this carlbovis_afc moron is a 24 carat bell-end 
+No words starting with numbers: stevewillmott this carlbovis_afc moron is a  carat bell-end 
+No multiple characters:  stevewillmott this carlbovis_afc moron is a  carat bell-end 
+Only more than 3 characters:  stevewillmott this carlbovis_afc moron is carat bell-end 
+Pre-Processed:  stevewillmott this carlbovis_afc moron is carat bell-end 
+Word found in trained set: moron 
+P(Positive): 0.41666666666667 
+P(Negative): 0.58333333333333 
+P(Positive|Total): 0.41666666666667 
+P(Negative|Total): 0.58333333333333 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Wow. 4-0 to Bayern in just half an hour.
+No Special Characters:  Wow 4-0 to Bayern in just half an hour  
+Lower case: wow 4-0 to bayern in just half an hour 
+No User name: wow 4-0 to bayern in just half an hour  
+Remove hash tag: wow 4-0 to bayern in just half an hour 
+No words starting with numbers: wow - to bayern in just half an hour 
+No multiple characters:  wow - to bayern in just half an hour 
+Only more than 3 characters:  wow to bayern in just half an hour 
+Pre-Processed:  wow to bayern in just half an hour 
+Word found in trained set: wow 
+P(Positive): 0.57962226640159 
+P(Negative): 0.42037773359841 
+P(Positive|Total): 0.57962226640159 
+P(Negative|Total): 0.42037773359841 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @Sunny_AFC they did the same with wilshere as well a couple of years ago
+No Special Characters:  Sunny_AFC they did the same with wilshere as well a couple of years ago  
+Lower case: sunny_afc they did the same with wilshere as well a couple of years ago 
+No User name: sunny_afc they did the same with wilshere as well a couple of years ago  
+Remove hash tag: sunny_afc they did the same with wilshere as well a couple of years ago 
+No words starting with numbers: sunny_afc they did the same with wilshere as well a couple of years ago 
+No multiple characters:  sunny_afc they did the same with wilshere as well a couple of years ago 
+Only more than 3 characters:  sunny_afc they did the same with wilshere as well couple of years ago 
+Pre-Processed:  sunny_afc they did the same with wilshere as well couple of years ago 
+Word found in trained set: well 
+P(Positive): 0.54903915881073 
+P(Negative): 0.45096084118927 
+P(Positive|Total): 0.54903915881073 
+P(Negative|Total): 0.45096084118927 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Poor result today from arsenal... Oh well, bring on the next game! #afc #arsenal #stoke
+No Special Characters:  Poor result today from arsenal Oh well bring on the next game afc arsenal stoke  
+Lower case: poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+No User name: poor result today from arsenal oh well bring on the next game afc arsenal stoke  
+Remove hash tag: poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+No words starting with numbers: poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+No multiple characters:  poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+Only more than 3 characters:  poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+Pre-Processed:  poor result today from arsenal oh well bring on the next game afc arsenal stoke 
+Word found in trained set: poor 
+P(Positive): 0.088439752832132 
+P(Negative): 0.91156024716787 
+P(Positive|Total): 0.088439752832132 
+P(Negative|Total): 0.91156024716787 
+Word found in trained set: well 
+P(Positive): 0.54903915881073 
+P(Negative): 0.45096084118927 
+P(Positive|Total): 0.63747891164286 
+P(Negative|Total): 1.3625210883571 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: @InsideThierry whatever happens this season wenger has done his job until now, if at any point he begins to fail to do his job then we
+No Special Characters:  InsideThierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we  
+Lower case: insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+No User name: insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we  
+Remove hash tag: insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+No words starting with numbers: insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+No multiple characters:  insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+Only more than 3 characters:  insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+Pre-Processed:  insidethierry whatever happens this season wenger has done his job until now if at any point he begins to fail to do his job then we 
+Word found in trained set: fail 
+P(Positive): 0.17239467849224 
+P(Negative): 0.82760532150776 
+P(Positive|Total): 0.17239467849224 
+P(Negative|Total): 0.82760532150776 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Oh well. If we lose to EFC on Saturday at least the Hope is over for another season. It's the Hope that kills you. #AFC
+No Special Characters:  Oh well If we lose to EFC on Saturday at least the Hope is over for another season It's the Hope that kills you AFC  
+Lower case: oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+No User name: oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc  
+Remove hash tag: oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+No words starting with numbers: oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+No multiple characters:  oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+Only more than 3 characters:  oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+Pre-Processed:  oh well if we lose to efc on saturday at least the hope is over for another season it's the hope that kills you afc 
+Word found in trained set: well 
+P(Positive): 0.54903915881073 
+P(Negative): 0.45096084118927 
+P(Positive|Total): 0.54903915881073 
+P(Negative|Total): 0.45096084118927 
+Word found in trained set: lose 
+P(Positive): 0.2651356993737 
+P(Negative): 0.7348643006263 
+P(Positive|Total): 0.81417485818443 
+P(Negative|Total): 1.1858251418156 
+Word found in trained set: kills 
+P(Positive): 0.25613079019074 
+P(Negative): 0.74386920980926 
+P(Positive|Total): 1.0703056483752 
+P(Negative|Total): 1.9296943516248 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: "@BeckArsenal: Did we really lose against fucking stoke?" Not only did we lose, we're also not allowed to criticise anything afc related
+No Special Characters:  BeckArsenal Did we really lose against fucking stoke Not only did we lose we're also not allowed to criticise anything afc related  
+Lower case: beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+No User name: beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related  
+Remove hash tag: beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+No words starting with numbers: beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+No multiple characters:  beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+Only more than 3 characters:  beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+Pre-Processed:  beckarsenal did we really lose against fucking stoke not only did we lose we're also not allowed to criticise anything afc related 
+Word found in trained set: lose 
+P(Positive): 0.2651356993737 
+P(Negative): 0.7348643006263 
+Adverb found in trained set: really 
+P(Positive|Adverb): 0.31816283924843 
+P(Negative|Adverb): 0.88183716075157 
+P(Positive|Total): 0.31816283924843 
+P(Negative|Total): 0.88183716075157 
+Word found in trained set: fucking 
+P(Positive): 0.28961899503037 
+P(Negative): 0.71038100496963 
+P(Positive|Total): 0.6077818342788 
+P(Negative|Total): 1.5922181657212 
+Word found in trained set: lose 
+P(Positive): 0.2651356993737 
+P(Negative): 0.7348643006263 
+P(Positive|Total): 0.8729175336525 
+P(Negative|Total): 2.3270824663475 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Awesome #ashestoashes riding the waves too long #afc
+No Special Characters:  Awesome ashestoashes riding the waves too long afc  
+Lower case: awesome ashestoashes riding the waves too long afc 
+No User name: awesome ashestoashes riding the waves too long afc  
+Remove hash tag: awesome ashestoashes riding the waves too long afc 
+No words starting with numbers: awesome ashestoashes riding the waves too long afc 
+No multiple characters:  awesome ashestoashes riding the waves too long afc 
+Only more than 3 characters:  awesome ashestoashes riding the waves too long afc 
+Pre-Processed:  awesome ashestoashes riding the waves too long afc 
+Word found in trained set: awesome 
+P(Positive): 0.78867660764212 
+P(Negative): 0.21132339235788 
+P(Positive|Total): 0.78867660764212 
+P(Negative|Total): 0.21132339235788 
+Sentence is Positive 
+----------------------------------------------------------------
+Tweet: @CarlBovis_AFC van Persie won't give a shit about Thursday night when he looks at his title winners medal.
+No Special Characters:  CarlBovis_AFC van Persie won't give a shit about Thursday night when he looks at his title winners medal  
+Lower case: carlbovis_afc van persie won't give a shit about thursday night when he looks at his title winners medal 
+No User name: carlbovis_afc van persie won't give a shit about thursday night when he looks at his title winners medal  
+Remove hash tag: carlbovis_afc van persie won't give a shit about thursday night when he looks at his title winners medal 
+No words starting with numbers: carlbovis_afc van persie won't give a shit about thursday night when he looks at his title winners medal 
+No multiple characters:  carlbovis_afc van persie won't give a shit about thursday night when he looks at his title winners medal 
+Only more than 3 characters:  carlbovis_afc van persie won't give shit about thursday night when he looks at his title winners medal 
+Pre-Processed:  carlbovis_afc van persie won't give shit about thursday night when he looks at his title winners medal 
+Word found in trained set: shit 
+P(Positive): 0.28025024882696 
+P(Negative): 0.71974975117304 
+P(Positive|Total): 0.28025024882696 
+P(Negative|Total): 0.71974975117304 
+Word found in trained set: winners 
+P(Positive): 0.62380952380952 
+P(Negative): 0.37619047619048 
+P(Positive|Total): 0.90405977263648 
+P(Negative|Total): 1.0959402273635 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @AndyWhit24 @Tom_Edmonds1.. Yeah seen that, fucking jokers!
+No Special Characters:  AndyWhit24 Tom_Edmonds1 Yeah seen that fucking jokers  
+Lower case: andywhit24 tom_edmonds1 yeah seen that fucking jokers 
+No User name: andywhit24 tom_edmonds1 yeah seen that fucking jokers  
+Remove hash tag: andywhit24 tom_edmonds1 yeah seen that fucking jokers 
+No words starting with numbers: andywhit tom_edmonds yeah seen that fucking jokers 
+No multiple characters:  andywhit tom_edmonds yeah seen that fucking jokers 
+Only more than 3 characters:  andywhit tom_edmonds yeah seen that fucking jokers 
+Pre-Processed:  andywhit tom_edmonds yeah seen that fucking jokers 
+Word found in trained set: fucking 
+P(Positive): 0.28961899503037 
+P(Negative): 0.71038100496963 
+P(Positive|Total): 0.28961899503037 
+P(Negative|Total): 0.71038100496963 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: fuck yourself.. U'll NEVER be compared to #Afc, suckers-&gt;"@nudgeovstoke: Let's see what the Arsehole fans have to say tonight #scfc #stoke"
+No Special Characters:  fuck yourself U'll NEVER be compared to Afc suckers-&gt;"@nudgeovstoke Let's see what the Arsehole fans have to say tonight scfc stoke  
+Lower case: fuck yourself u'll never be compared to afc suckers-&gt;"@nudgeovstoke let's see what the arsehole fans have to say tonight scfc stoke 
+No User name: fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke  
+Remove hash tag: fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke 
+No words starting with numbers: fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke 
+No multiple characters:  fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke 
+Only more than 3 characters:  fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke 
+Pre-Processed:  fuck yourself u'll never be compared to afc suckers-&gt;" let's see what the arsehole fans have to say tonight scfc stoke 
+Word found in trained set: fuck 
+P(Positive): 0.28164622739555 
+P(Negative): 0.71835377260445 
+P(Positive|Total): 0.28164622739555 
+P(Negative|Total): 0.71835377260445 
+Word found in trained set: fans 
+P(Positive): 0.597539543058 
+P(Negative): 0.402460456942 
+P(Positive|Total): 0.87918577045355 
+P(Negative|Total): 1.1208142295465 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @alanhinton11 @piersmorgan £120M in the bank and doesn't buy a striker.  Ridiculous.  9 years of failure.  #AFC
+No Special Characters:  alanhinton11 piersmorgan 120M in the bank and doesn't buy a striker  Ridiculous  9 years of failure  AFC  
+Lower case: alanhinton11 piersmorgan 120m in the bank and doesn't buy a striker  ridiculous  9 years of failure  afc 
+No User name: alanhinton11 piersmorgan 120m in the bank and doesn't buy a striker  ridiculous  9 years of failure  afc  
+Remove hash tag: alanhinton11 piersmorgan 120m in the bank and doesn't buy a striker  ridiculous  9 years of failure  afc 
+No words starting with numbers: alanhinton piersmorgan m in the bank and doesn't buy a striker  ridiculous   years of failure  afc 
+No multiple characters:  alanhinton piersmorgan m in the bank and doesn't buy a striker  ridiculous   years of failure  afc 
+Only more than 3 characters:  alanhinton piersmorgan in the bank and doesn't buy striker ridiculous years of failure afc 
+Pre-Processed:  alanhinton piersmorgan in the bank and doesn't buy striker ridiculous years of failure afc 
+Word found in trained set: ridiculous 
+P(Positive): 0.33955857385399 
+P(Negative): 0.66044142614601 
+P(Positive|Total): 0.33955857385399 
+P(Negative|Total): 0.66044142614601 
+Word found in trained set: failure 
+P(Positive): 0.21628498727735 
+P(Negative): 0.78371501272265 
+P(Positive|Total): 0.55584356113134 
+P(Negative|Total): 1.4441564388687 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: @AFC_Harry34 @Arnautoviced @FA the FA and all the press hate Stoke, Fa panda to stereotypes, even though we are know where near what we were
+No Special Characters:  AFC_Harry34 Arnautoviced FA the FA and all the press hate Stoke Fa panda to stereotypes even though we are know where near what we were  
+Lower case: afc_harry34 arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+No User name: afc_harry34 arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were  
+Remove hash tag: afc_harry34 arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+No words starting with numbers: afc_harry arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+No multiple characters:  afc_harry arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+Only more than 3 characters:  afc_harry arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+Pre-Processed:  afc_harry arnautoviced fa the fa and all the press hate stoke fa panda to stereotypes even though we are know where near what we were 
+Word found in trained set: hate 
+P(Positive): 0.12844508432744 
+P(Negative): 0.87155491567256 
+P(Positive|Total): 0.12844508432744 
+P(Negative|Total): 0.87155491567256 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: 15 minutes to kickoff !!!
+No Special Characters:  15 minutes to kickoff   
+Lower case: 15 minutes to kickoff 
+No User name: 15 minutes to kickoff  
+Remove hash tag: 15 minutes to kickoff 
+No words starting with numbers: minutes to kickoff 
+No multiple characters:  minutes to kickoff 
+Only more than 3 characters:  minutes to kickoff 
+Pre-Processed:  minutes to kickoff 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: 
+No Special Characters:    
+Lower case:  
+No User name:   
+Remove hash tag:  
+No words starting with numbers:  
+No multiple characters:   
+Only more than 3 characters:  
+Pre-Processed:  
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: SuperSport United v AFC Leopards 
+No Special Characters:  SuperSport United v AFC Leopards   
+Lower case: supersport united v afc leopards 
+No User name: supersport united v afc leopards  
+Remove hash tag: supersport united v afc leopards 
+No words starting with numbers: supersport united v afc leopards 
+No multiple characters:  supersport united v afc leopards 
+Only more than 3 characters:  supersport united afc leopards 
+Pre-Processed:  supersport united afc leopards 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: 
+No Special Characters:    
+Lower case:  
+No User name:   
+Remove hash tag:  
+No words starting with numbers:  
+No multiple characters:   
+Only more than 3 characters:  
+Pre-Processed:  
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Lucas Moripe Stadium, Pretoria.
+No Special Characters:  Lucas Moripe Stadium Pretoria  
+Lower case: lucas moripe stadium pretoria 
+No User name: lucas moripe stadium pretoria  
+Remove hash tag: lucas moripe stadium pretoria 
+No words starting with numbers: lucas moripe stadium pretoria 
+No multiple characters:  lucas moripe stadium pretoria 
+Only more than 3 characters:  lucas moripe stadium pretoria 
+Pre-Processed:  lucas moripe stadium pretoria 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: 
+No Special Characters:    
+Lower case:  
+No User name:   
+Remove hash tag:  
+No words starting with numbers:  
+No multiple characters:   
+Only more than 3 characters:  
+Pre-Processed:  
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #CAFCC
+No Special Characters:  CAFCC  
+Lower case: cafcc 
+No User name: cafcc  
+Remove hash tag: cafcc 
+No words starting with numbers: cafcc 
+No multiple characters:  cafcc 
+Only more than 3 characters:  cafcc 
+Pre-Processed:  cafcc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @David_AFC_ or maybe if falcao wants to leave monaco. Surely he'd go real or Chelsea though
+No Special Characters:  David_AFC or maybe if falcao wants to leave monaco Surely he'd go real or Chelsea though  
+Lower case: david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+No User name: david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though  
+Remove hash tag: david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+No words starting with numbers: david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+No multiple characters:  david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+Only more than 3 characters:  david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+Pre-Processed:  david_afc or maybe if falcao wants to leave monaco surely he'd go real or chelsea though 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: And that's how the (our) cookie crumbled #afc
+No Special Characters:  And that's how the our cookie crumbled afc  
+Lower case: and that's how the our cookie crumbled afc 
+No User name: and that's how the our cookie crumbled afc  
+Remove hash tag: and that's how the our cookie crumbled afc 
+No words starting with numbers: and that's how the our cookie crumbled afc 
+No multiple characters:  and that's how the our cookie crumbled afc 
+Only more than 3 characters:  and that's how the our cookie crumbled afc 
+Pre-Processed:  and that's how the our cookie crumbled afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Can't believe we lost.....stoke good at home but still that hurts especially now Liverpool could go above us later :( #afc
+No Special Characters:  Can't believe we lost.....stoke good at home but still that hurts especially now Liverpool could go above us later :( afc  
+Lower case: can't believe we lost.....stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+No User name: can't believe we lost.....stoke good at home but still that hurts especially now liverpool could go above us later :( afc  
+Remove hash tag: can't believe we lost.....stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+No words starting with numbers: can't believe we lost.....stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+No multiple characters:  can't believe we lost..stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+Only more than 3 characters:  can't believe we lost..stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+Pre-Processed:  can't believe we lost..stoke good at home but still that hurts especially now liverpool could go above us later :( afc 
+Word found in trained set: good 
+P(Positive): 0.67955504925283 
+P(Negative): 0.32044495074717 
+P(Positive|Total): 0.67955504925283 
+P(Negative|Total): 0.32044495074717 
+Word found in trained set: hurts 
+P(Positive): 0.057318869693317 
+P(Negative): 0.94268113030668 
+P(Positive|Total): 0.73687391894615 
+P(Negative|Total): 1.2631260810539 
+Negative smiley Detected: :( 
+P(Positive): 0.73687391894615 
+P(Negative|Smiley): 2.0131260810539 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Title Race Over!!! #Afc
+No Special Characters:  Title Race Over Afc  
+Lower case: title race over afc 
+No User name: title race over afc  
+Remove hash tag: title race over afc 
+No words starting with numbers: title race over afc 
+No multiple characters:  title race over afc 
+Only more than 3 characters:  title race over afc 
+Pre-Processed:  title race over afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Lobatan"@adequnle: @KoloKennethK I hear you, na Wenger &amp; His Shampoo Model Giroud cause am... #AFC"
+No Special Characters:  Lobatan"@adequnle KoloKennethK I hear you na Wenger amp His Shampoo Model Giroud cause am AFC  
+Lower case: lobatan"@adequnle kolokennethk i hear you na wenger amp his shampoo model giroud cause am afc 
+No User name: lobatan" kolokennethk i hear you na wenger amp his shampoo model giroud cause am afc  
+Remove hash tag: lobatan" kolokennethk i hear you na wenger amp his shampoo model giroud cause am afc 
+No words starting with numbers: lobatan" kolokennethk i hear you na wenger amp his shampoo model giroud cause am afc 
+No multiple characters:  lobatan" kolokennethk i hear you na wenger amp his shampoo model giroud cause am afc 
+Only more than 3 characters:  lobatan" kolokennethk hear you na wenger amp his shampoo model giroud cause am afc 
+Pre-Processed:  lobatan" kolokennethk hear you na wenger amp his shampoo model giroud cause am afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @David_AFC_ Shouldn't even be in this position as such a big club we are
+No Special Characters:  David_AFC Shouldn't even be in this position as such a big club we are  
+Lower case: david_afc shouldn't even be in this position as such a big club we are 
+No User name: david_afc shouldn't even be in this position as such a big club we are  
+Remove hash tag: david_afc shouldn't even be in this position as such a big club we are 
+No words starting with numbers: david_afc shouldn't even be in this position as such a big club we are 
+No multiple characters:  david_afc shouldn't even be in this position as such a big club we are 
+Only more than 3 characters:  david_afc shouldn't even be in this position as such big club we are 
+Pre-Processed:  david_afc shouldn't even be in this position as such big club we are 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Its ova 4 AFC. Our next4 games &gt; Everton, Spurs, Chelsea, City. 3are away games @StaleMayte: I think @MrsGiroud: The league is not over yet.
+No Special Characters:  Its ova 4 AFC Our next4 games gt Everton Spurs Chelsea City 3are away games StaleMayte I think MrsGiroud The league is not over yet  
+Lower case: its ova 4 afc our next4 games gt everton spurs chelsea city 3are away games stalemayte i think mrsgiroud the league is not over yet 
+No User name: its ova 4 afc our next4 games gt everton spurs chelsea city 3are away games stalemayte i think mrsgiroud the league is not over yet  
+Remove hash tag: its ova 4 afc our next4 games gt everton spurs chelsea city 3are away games stalemayte i think mrsgiroud the league is not over yet 
+No words starting with numbers: its ova  afc our next games gt everton spurs chelsea city are away games stalemayte i think mrsgiroud the league is not over yet 
+No multiple characters:  its ova  afc our next games gt everton spurs chelsea city are away games stalemayte i think mrsgiroud the league is not over yet 
+Only more than 3 characters:  its ova afc our next games gt everton spurs chelsea city are away games stalemayte think mrsgiroud the league is not over yet 
+Pre-Processed:  its ova afc our next games gt everton spurs chelsea city are away games stalemayte think mrsgiroud the league is not over yet 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Stoke tried to play in first half but resorted to all too familiar tactics as game wore on, ref let Whelan and Adam off massively #afc
+No Special Characters:  Stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let Whelan and Adam off massively afc  
+Lower case: stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+No User name: stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc  
+Remove hash tag: stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+No words starting with numbers: stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+No multiple characters:  stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+Only more than 3 characters:  stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+Pre-Processed:  stoke tried to play in first half but resorted to all too familiar tactics as game wore on ref let whelan and adam off massively afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Who r u telling? &lt;_&gt; @iAm_eAo: Pained #afc fan&gt;&gt;&gt;&gt;&gt; "@MIAz_Official: Chelsea fans can over rate hazard sha! I'd pick Cahill over him
+No Special Characters:  Who r u telling lt;_&gt iAm_eAo Pained afc fan&gt;&gt;&gt;&gt;&gt MIAz_Official Chelsea fans can over rate hazard sha I'd pick Cahill over him  
+Lower case: who r u telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+No User name: who r u telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him  
+Remove hash tag: who r u telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+No words starting with numbers: who r u telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+No multiple characters:  who r u telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+Only more than 3 characters:  who telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+Pre-Processed:  who telling lt;_&gt iam_eao pained afc fan&gt;&gt;&gt;&gt;&gt miaz_official chelsea fans can over rate hazard sha i'd pick cahill over him 
+Word found in trained set: fans 
+P(Positive): 0.597539543058 
+P(Negative): 0.402460456942 
+P(Positive|Total): 0.597539543058 
+P(Negative|Total): 0.402460456942 
+Word found in trained set: hazard 
+P(Positive): 0.45 
+P(Negative): 0.55 
+P(Positive|Total): 1.047539543058 
+P(Negative|Total): 0.952460456942 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Another trophy-less year in the making for #AFC #EPL #MUFC
+No Special Characters:  Another trophy-less year in the making for AFC EPL MUFC  
+Lower case: another trophy-less year in the making for afc epl mufc 
+No User name: another trophy-less year in the making for afc epl mufc  
+Remove hash tag: another trophy-less year in the making for afc epl mufc 
+No words starting with numbers: another trophy-less year in the making for afc epl mufc 
+No multiple characters:  another trophy-less year in the making for afc epl mufc 
+Only more than 3 characters:  another trophy-less year in the making for afc epl mufc 
+Pre-Processed:  another trophy-less year in the making for afc epl mufc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Is there a reason Flamini didn't play today?
+No Special Characters:  Is there a reason Flamini didn't play today  
+Lower case: is there a reason flamini didn't play today 
+No User name: is there a reason flamini didn't play today  
+Remove hash tag: is there a reason flamini didn't play today 
+No words starting with numbers: is there a reason flamini didn't play today 
+No multiple characters:  is there a reason flamini didn't play today 
+Only more than 3 characters:  is there reason flamini didn't play today 
+Pre-Processed:  is there reason flamini didn't play today 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: 
+No Special Characters:    
+Lower case:  
+No User name:   
+Remove hash tag:  
+No words starting with numbers:  
+No multiple characters:   
+Only more than 3 characters:  
+Pre-Processed:  
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Can't help but think he might have made the difference. 
+No Special Characters:  Can't help but think he might have made the difference   
+Lower case: can't help but think he might have made the difference 
+No User name: can't help but think he might have made the difference  
+Remove hash tag: can't help but think he might have made the difference 
+No words starting with numbers: can't help but think he might have made the difference 
+No multiple characters:  can't help but think he might have made the difference 
+Only more than 3 characters:  can't help but think he might have made the difference 
+Pre-Processed:  can't help but think he might have made the difference 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #Aggression 
+No Special Characters:  Aggression   
+Lower case: aggression 
+No User name: aggression  
+Remove hash tag: aggression 
+No words starting with numbers: aggression 
+No multiple characters:  aggression 
+Only more than 3 characters:  aggression 
+Pre-Processed:  aggression 
+Word found in trained set: aggression 
+P(Positive): 0.42857142857143 
+P(Negative): 0.57142857142857 
+P(Positive|Total): 0.42857142857143 
+P(Negative|Total): 0.57142857142857 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #AFC
+No Special Characters:  AFC  
+Lower case: afc 
+No User name: afc  
+Remove hash tag: afc 
+No words starting with numbers: afc 
+No multiple characters:  afc 
+Only more than 3 characters:  afc 
+Pre-Processed:  afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @David_AFC_ so what are you going to achieve this season then
+No Special Characters:  David_AFC so what are you going to achieve this season then  
+Lower case: david_afc so what are you going to achieve this season then 
+No User name: david_afc so what are you going to achieve this season then  
+Remove hash tag: david_afc so what are you going to achieve this season then 
+No words starting with numbers: david_afc so what are you going to achieve this season then 
+No multiple characters:  david_afc so what are you going to achieve this season then 
+Only more than 3 characters:  david_afc so what are you going to achieve this season then 
+Pre-Processed:  david_afc so what are you going to achieve this season then 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Awwwww, so close. We need to sign Lallana next season. #AFC #differentclass
+No Special Characters:  Awwwww so close We need to sign Lallana next season AFC differentclass  
+Lower case: awwwww so close we need to sign lallana next season afc differentclass 
+No User name: awwwww so close we need to sign lallana next season afc differentclass  
+Remove hash tag: awwwww so close we need to sign lallana next season afc differentclass 
+No words starting with numbers: awwwww so close we need to sign lallana next season afc differentclass 
+No multiple characters:  aww so close we need to sign lallana next season afc differentclass 
+Only more than 3 characters:  aww so close we need to sign lallana next season afc differentclass 
+Pre-Processed:  aww so close we need to sign lallana next season afc differentclass 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @fazjac_debra @ArsenalMoh8 @Arsenal looking at the table now, I can't see it. I want it but in my heart no chance #afc
+No Special Characters:  fazjac_debra ArsenalMoh8 Arsenal looking at the table now I can't see it I want it but in my heart no chance afc  
+Lower case: fazjac_debra arsenalmoh8 arsenal looking at the table now i can't see it i want it but in my heart no chance afc 
+No User name: fazjac_debra arsenalmoh8 arsenal looking at the table now i can't see it i want it but in my heart no chance afc  
+Remove hash tag: fazjac_debra arsenalmoh8 arsenal looking at the table now i can't see it i want it but in my heart no chance afc 
+No words starting with numbers: fazjac_debra arsenalmoh arsenal looking at the table now i can't see it i want it but in my heart no chance afc 
+No multiple characters:  fazjac_debra arsenalmoh arsenal looking at the table now i can't see it i want it but in my heart no chance afc 
+Only more than 3 characters:  fazjac_debra arsenalmoh arsenal looking at the table now can't see it want it but in my heart no chance afc 
+Pre-Processed:  fazjac_debra arsenalmoh arsenal looking at the table now can't see it want it but in my heart no chance afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Okay yes, Arsenal played poorly, but what IF the referee was fair by given Stoke 2 red cards? Would they've had the PK? No. 9 men vs AFC 11?
+No Special Characters:  Okay yes Arsenal played poorly but what IF the referee was fair by given Stoke 2 red cards Would they've had the PK No 9 men vs AFC 11  
+Lower case: okay yes arsenal played poorly but what if the referee was fair by given stoke 2 red cards would they've had the pk no 9 men vs afc 11 
+No User name: okay yes arsenal played poorly but what if the referee was fair by given stoke 2 red cards would they've had the pk no 9 men vs afc 11  
+Remove hash tag: okay yes arsenal played poorly but what if the referee was fair by given stoke 2 red cards would they've had the pk no 9 men vs afc 11 
+No words starting with numbers: okay yes arsenal played poorly but what if the referee was fair by given stoke  red cards would they've had the pk no  men vs afc 
+No multiple characters:  okay yes arsenal played poorly but what if the referee was fair by given stoke  red cards would they've had the pk no  men vs afc 
+Only more than 3 characters:  okay yes arsenal played poorly but what if the referee was fair by given stoke red cards would they've had the pk no men vs afc 
+Pre-Processed:  okay yes arsenal played poorly but what if the referee was fair by given stoke red cards would they've had the pk no men vs afc 
+Word found in trained set: poorly 
+P(Positive): 0.06695464362851 
+P(Negative): 0.93304535637149 
+P(Positive|Total): 0.06695464362851 
+P(Negative|Total): 0.93304535637149 
+Word found in trained set: fair 
+P(Positive): 0.70326173428799 
+P(Negative): 0.29673826571201 
+P(Positive|Total): 0.7702163779165 
+P(Negative|Total): 1.2297836220835 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Hate the fact that we could have had Luis Suarez if we coughed up £50m. #afc
+No Special Characters:  Hate the fact that we could have had Luis Suarez if we coughed up 50m afc  
+Lower case: hate the fact that we could have had luis suarez if we coughed up 50m afc 
+No User name: hate the fact that we could have had luis suarez if we coughed up 50m afc  
+Remove hash tag: hate the fact that we could have had luis suarez if we coughed up 50m afc 
+No words starting with numbers: hate the fact that we could have had luis suarez if we coughed up m afc 
+No multiple characters:  hate the fact that we could have had luis suarez if we coughed up m afc 
+Only more than 3 characters:  hate the fact that we could have had luis suarez if we coughed up afc 
+Pre-Processed:  hate the fact that we could have had luis suarez if we coughed up afc 
+Word found in trained set: hate 
+P(Positive): 0.12844508432744 
+P(Negative): 0.87155491567256 
+P(Positive|Total): 0.12844508432744 
+P(Negative|Total): 0.87155491567256 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: Arsenal have picked up 1 point in their last 3 Premier League away games. #afc
+No Special Characters:  Arsenal have picked up 1 point in their last 3 Premier League away games afc  
+Lower case: arsenal have picked up 1 point in their last 3 premier league away games afc 
+No User name: arsenal have picked up 1 point in their last 3 premier league away games afc  
+Remove hash tag: arsenal have picked up 1 point in their last 3 premier league away games afc 
+No words starting with numbers: arsenal have picked up  point in their last  premier league away games afc 
+No multiple characters:  arsenal have picked up  point in their last  premier league away games afc 
+Only more than 3 characters:  arsenal have picked up point in their last premier league away games afc 
+Pre-Processed:  arsenal have picked up point in their last premier league away games afc 
+Word found in trained set: premier 
+P(Positive): 0.41095890410959 
+P(Negative): 0.58904109589041 
+P(Positive|Total): 0.41095890410959 
+P(Negative|Total): 0.58904109589041 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: I've been looking for  @piersmorgan 'Boooooooooom'#afc top of the league tweet since! Reality setting in...its been a terribke week 4 him
+No Special Characters:  I've been looking for  piersmorgan Boooooooooom'#afc top of the league tweet since Reality setting in...its been a terribke week 4 him  
+Lower case: i've been looking for  piersmorgan boooooooooom'#afc top of the league tweet since reality setting in...its been a terribke week 4 him 
+No User name: i've been looking for  piersmorgan boooooooooom'#afc top of the league tweet since reality setting in...its been a terribke week 4 him  
+Remove hash tag: i've been looking for  piersmorgan boooooooooom'afc top of the league tweet since reality setting in...its been a terribke week 4 him 
+No words starting with numbers: i've been looking for  piersmorgan boooooooooom'afc top of the league tweet since reality setting in...its been a terribke week  him 
+No multiple characters:  i've been looking for  piersmorgan boom'afc top of the league tweet since reality setting in..its been a terribke week  him 
+Only more than 3 characters:  i've been looking for piersmorgan boom'afc top of the league tweet since reality setting in..its been terribke week him 
+Pre-Processed:  i've been looking for piersmorgan boom'afc top of the league tweet since reality setting in..its been terribke week him 
+Word found in trained set: top 
+P(Positive): 0.56357185097575 
+P(Negative): 0.43642814902425 
+P(Positive|Total): 0.56357185097575 
+P(Negative|Total): 0.43642814902425 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @InsideThierry now let's see who will be this summer now we have even more money thanks to puma
+No Special Characters:  InsideThierry now let's see who will be this summer now we have even more money thanks to puma  
+Lower case: insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+No User name: insidethierry now let's see who will be this summer now we have even more money thanks to puma  
+Remove hash tag: insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+No words starting with numbers: insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+No multiple characters:  insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+Only more than 3 characters:  insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+Pre-Processed:  insidethierry now let's see who will be this summer now we have even more money thanks to puma 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: Be Calm Gunner Fam 
+No Special Characters:  Be Calm Gunner Fam   
+Lower case: be calm gunner fam 
+No User name: be calm gunner fam  
+Remove hash tag: be calm gunner fam 
+No words starting with numbers: be calm gunner fam 
+No multiple characters:  be calm gunner fam 
+Only more than 3 characters:  be calm gunner fam 
+Pre-Processed:  be calm gunner fam 
+Word found in trained set: calm 
+P(Positive): 0.62962962962963 
+P(Negative): 0.37037037037037 
+P(Positive|Total): 0.62962962962963 
+P(Negative|Total): 0.37037037037037 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: The only time a single Game means disaster is when its the last Game of the season 
+No Special Characters:  The only time a single Game means disaster is when its the last Game of the season   
+Lower case: the only time a single game means disaster is when its the last game of the season 
+No User name: the only time a single game means disaster is when its the last game of the season  
+Remove hash tag: the only time a single game means disaster is when its the last game of the season 
+No words starting with numbers: the only time a single game means disaster is when its the last game of the season 
+No multiple characters:  the only time a single game means disaster is when its the last game of the season 
+Only more than 3 characters:  the only time single game means disaster is when its the last game of the season 
+Pre-Processed:  the only time single game means disaster is when its the last game of the season 
+Word found in trained set: disaster 
+P(Positive): 0.25968992248062 
+P(Negative): 0.74031007751938 
+P(Positive|Total): 0.25968992248062 
+P(Negative|Total): 0.74031007751938 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: We In this 
+No Special Characters:  We In this   
+Lower case: we in this 
+No User name: we in this  
+Remove hash tag: we in this 
+No words starting with numbers: we in this 
+No multiple characters:  we in this 
+Only more than 3 characters:  we in this 
+Pre-Processed:  we in this 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: #AFC
+No Special Characters:  AFC  
+Lower case: afc 
+No User name: afc  
+Remove hash tag: afc 
+No words starting with numbers: afc 
+No multiple characters:  afc 
+Only more than 3 characters:  afc 
+Pre-Processed:  afc 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @Tom_Edmonds1.. No quiet one, work to do tomorrow for a busy week including parent evening #Zzzz
+No Special Characters:  Tom_Edmonds1 No quiet one work to do tomorrow for a busy week including parent evening Zzzz  
+Lower case: tom_edmonds1 no quiet one work to do tomorrow for a busy week including parent evening zzzz 
+No User name: tom_edmonds1 no quiet one work to do tomorrow for a busy week including parent evening zzzz  
+Remove hash tag: tom_edmonds1 no quiet one work to do tomorrow for a busy week including parent evening zzzz 
+No words starting with numbers: tom_edmonds no quiet one work to do tomorrow for a busy week including parent evening zzzz 
+No multiple characters:  tom_edmonds no quiet one work to do tomorrow for a busy week including parent evening zz 
+Only more than 3 characters:  tom_edmonds no quiet one work to do tomorrow for busy week including parent evening zz 
+Pre-Processed:  tom_edmonds no quiet one work to do tomorrow for busy week including parent evening zz 
+Word found in trained set: quiet 
+P(Positive): 0.51733703190014 
+P(Negative): 0.48266296809986 
+Negation detected: no 
+P(Positive|Negation): 0.48266296809986 
+P(Negative|Negation): 0.51733703190014 
+P(Positive|Total): 0.48266296809986 
+P(Negative|Total): 0.51733703190014 
+Word found in trained set: work 
+P(Positive): 0.29602157788267 
+P(Negative): 0.70397842211733 
+P(Positive|Total): 0.77868454598253 
+P(Negative|Total): 1.2213154540175 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: I Can't Express How Much I Hate Dropping Points At The Most Crucial Times #AFC
+No Special Characters:  I Can't Express How Much I Hate Dropping Points At The Most Crucial Times AFC  
+Lower case: i can't express how much i hate dropping points at the most crucial times afc 
+No User name: i can't express how much i hate dropping points at the most crucial times afc  
+Remove hash tag: i can't express how much i hate dropping points at the most crucial times afc 
+No words starting with numbers: i can't express how much i hate dropping points at the most crucial times afc 
+No multiple characters:  i can't express how much i hate dropping points at the most crucial times afc 
+Only more than 3 characters:  can't express how much hate dropping points at the most crucial times afc 
+Pre-Processed:  can't express how much hate dropping points at the most crucial times afc 
+Word found in trained set: hate 
+P(Positive): 0.12844508432744 
+P(Negative): 0.87155491567256 
+P(Positive|Total): 0.12844508432744 
+P(Negative|Total): 0.87155491567256 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: #arsenal @arsenal #afc #wengerout get out wenger
+No Special Characters:  arsenal arsenal afc wengerout get out wenger  
+Lower case: arsenal arsenal afc wengerout get out wenger 
+No User name: arsenal arsenal afc wengerout get out wenger  
+Remove hash tag: arsenal arsenal afc wengerout get out wenger 
+No words starting with numbers: arsenal arsenal afc wengerout get out wenger 
+No multiple characters:  arsenal arsenal afc wengerout get out wenger 
+Only more than 3 characters:  arsenal arsenal afc wengerout get out wenger 
+Pre-Processed:  arsenal arsenal afc wengerout get out wenger 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @piersmorgan Making top four is looking very slim for Arsenal #AFC
+No Special Characters:  piersmorgan Making top four is looking very slim for Arsenal AFC  
+Lower case: piersmorgan making top four is looking very slim for arsenal afc 
+No User name: piersmorgan making top four is looking very slim for arsenal afc  
+Remove hash tag: piersmorgan making top four is looking very slim for arsenal afc 
+No words starting with numbers: piersmorgan making top four is looking very slim for arsenal afc 
+No multiple characters:  piersmorgan making top four is looking very slim for arsenal afc 
+Only more than 3 characters:  piersmorgan making top four is looking very slim for arsenal afc 
+Pre-Processed:  piersmorgan making top four is looking very slim for arsenal afc 
+Word found in trained set: top 
+P(Positive): 0.56357185097575 
+P(Negative): 0.43642814902425 
+P(Positive|Total): 0.56357185097575 
+P(Negative|Total): 0.43642814902425 
+Sentence is Neutral 
+----------------------------------------------------------------
+Tweet: @mj_afc Ugh, I'd blanked out the Anfield annihilation. These strong words lose their effect if used too much, don't they?
+No Special Characters:  mj_afc Ugh I'd blanked out the Anfield annihilation These strong words lose their effect if used too much don't they  
+Lower case: mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+No User name: mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they  
+Remove hash tag: mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+No words starting with numbers: mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+No multiple characters:  mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+Only more than 3 characters:  mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+Pre-Processed:  mj_afc ugh i'd blanked out the anfield annihilation these strong words lose their effect if used too much don't they 
+Word found in trained set: ugh 
+P(Positive): 0.09267170555373 
+P(Negative): 0.90732829444627 
+P(Positive|Total): 0.09267170555373 
+P(Negative|Total): 0.90732829444627 
+Word found in trained set: annihilation 
+P(Positive): 0.25 
+P(Negative): 0.75 
+P(Positive|Total): 0.34267170555373 
+P(Negative|Total): 1.6573282944463 
+Word found in trained set: strong 
+P(Positive): 0.53522504892368 
+P(Negative): 0.46477495107632 
+P(Positive|Total): 0.87789675447741 
+P(Negative|Total): 2.1221032455226 
+Word found in trained set: lose 
+P(Positive): 0.2651356993737 
+P(Negative): 0.7348643006263 
+P(Positive|Total): 1.1430324538511 
+P(Negative|Total): 2.8569675461489 
+Sentence is Negative 
+----------------------------------------------------------------
+Tweet: 

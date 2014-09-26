@@ -59,11 +59,16 @@ function pre_process($line)
 {	
 	$mod_tweet="";
 	global $negsmiley, $possmiley;
+	global $logic;
 	
 	if ($line!="")
 	{
+		$line=preg_replace("@\n@","",$line);
+		$tweet=$line." ";
+		
 		#Remove special characters at the end of words and leaves out smileys
-		$words=explode(" ",$line);
+		$words=explode(" ",$tweet);
+		$words = array_map('trim', $words);
 		for($x=0;$x<count($words);$x++)
 		{
 			$word=$words[$x];
@@ -71,10 +76,12 @@ function pre_process($line)
 				$word=preg_replace('/(^([^a-zA-Z0-9])*|([^a-zA-Z0-9])*$)/', '', $word);
 			$mod_tweet=$mod_tweet." ".$word;
 		}
+		fwrite($logic,"No Special Characters: $mod_tweet \n");
 		$tweet=trim($mod_tweet);
 		
 		#Removes white spaces and trims the tweet
-		$tweet=strtolower(trim($tweet));
+		$tweet=strtolower($tweet);
+		fwrite($logic,"Lower case: $tweet \n");
 		
 		#Removes the user name
 		$tweet=$tweet." ";
@@ -86,6 +93,7 @@ function pre_process($line)
 			$tweet=substr_replace($tweet,"",$apos,$spos-$apos);
 			$acount = $acount - 1;
 		}
+		fwrite($logic,"No User name: $tweet \n");
 		$tweet=trim($tweet);
 		
 		#Remove the hash sign and keep the hash tag
@@ -96,12 +104,15 @@ function pre_process($line)
 			$tweet=substr_replace($tweet,'',$hpos,1);
 			$hcount = $hcount-1;
 		}
+		fwrite($logic,"Remove hash tag: $tweet \n");
 		$tweet=trim($tweet);
 		
 		#Removes words starting with numbers
 		$tweet=trim(str_replace(range(0,9),'',$tweet));
+		fwrite($logic,"No words starting with numbers: $tweet \n");
 		
 		#Removes multiple characters occurring together
+		$mod_tweet="";
 		$words=explode(" ",$tweet);
 		for($x=0;$x<count($words);$x++)
 		{
@@ -124,14 +135,16 @@ function pre_process($line)
 		}
 		$tweet=$mod_tweet;
 		$mod_tweet="";
+		fwrite($logic,"No multiple characters: $tweet \n");
 		
 		#Removes all characters less than 3 characters
 		$words=explode(" ",$tweet);
 		for($x=0;$x<count($words);$x++)
 		{
-			if(strlen($words[$x])>=3)
+			if(strlen($words[$x])>=2)
 				$mod_tweet = $mod_tweet." ".$words[$x];
 		}
+		fwrite($logic,"Only more than 3 characters: $mod_tweet \n");
 		return $mod_tweet;
 	}
 }
@@ -146,6 +159,12 @@ function naive_bayes($str)
 	$pre_previous="";
 	$prob_pos=0;
 	$prob_neg=0;
+	global $logic;
+	$psmiley = array_map('strtolower', $possmiley);
+	$nsmiley = array_map('strtolower', $negsmiley);
+	
+	
+	fwrite($logic,"Pre-Processed: $str \n");
 	
 	$words=explode(' ',$str);
 	$arrlength=count($words);
@@ -157,6 +176,9 @@ function naive_bayes($str)
 		{
 			$pos=$trained_set[$current];
 			$neg=1-$pos;
+			fwrite($logic,"Word found in trained set: $current \n");
+			fwrite($logic,"P(Positive): $pos \n");
+			fwrite($logic,"P(Negative): $neg \n");
 			
 			#If previous word is a negative word
 			if(in_array($previous, $negation))
@@ -164,6 +186,9 @@ function naive_bayes($str)
 				$temp=$pos;
 				$pos=$neg;
 				$neg=$temp;
+				fwrite($logic,"Negation detected: $previous \n");
+				fwrite($logic,"P(Positive|Negation): $pos \n");
+				fwrite($logic,"P(Negative|Negation): $neg \n");
 			}
 			
 			#If previous word is an adverb
@@ -171,6 +196,9 @@ function naive_bayes($str)
 			{
 				$pos=$pos*$adverb[$previous];
 				$neg=$neg*$adverb[$previous];
+				fwrite($logic,"Adverb found in trained set: $previous \n");
+				fwrite($logic,"P(Positive|Adverb): $pos \n");
+				fwrite($logic,"P(Negative|Adverb): $neg \n");
 				
 				#If negation appears before intensifier as pre_previous word
 				if(in_array($pre_previous, $negation))
@@ -178,34 +206,55 @@ function naive_bayes($str)
 					$temp=$pos;
 					$pos=$neg;
 					$neg=$temp;
+					fwrite($logic,"Negation detected before adverb: $pre_previous \n");
+					fwrite($logic,"P(Positive|Adverb-Negation): $pos \n");
+					fwrite($logic,"P(Negative|Adverb-Negation): $neg \n");
 				}
 			}
 			$prob_pos=$prob_pos+$pos;
 			$prob_neg=$prob_neg+$neg; 
+			fwrite($logic,"P(Positive|Total): $prob_pos \n");
+			fwrite($logic,"P(Negative|Total): $prob_neg \n");
 		}
 		
 		#Sentiment due to smiley's
-		if(in_array($current,$possmiley))
+		if(in_array($current,$psmiley))
 		{
-			$prob_pos=$prob_pos+0.5;
+			$prob_pos=$prob_pos+0.75;
+			fwrite($logic,"Positive smiley Detected: $current \n");
+			fwrite($logic,"P(Positive|Smiley): $prob_pos \n");
+			fwrite($logic,"P(Negative): $prob_neg \n");
 		}
-		if(in_array($current,$negsmiley))
+		if(in_array($current,$nsmiley))
 		{
-			$prob_neg=$prob_neg+0.5;
+			$prob_neg=$prob_neg+0.75;
+			fwrite($logic,"Negative smiley Detected: $current \n");
+			fwrite($logic,"P(Positive): $prob_pos \n");
+			fwrite($logic,"P(Negative|Smiley): $prob_neg \n");
 		}
-		
 		#Moving the previous word pointer forward
 		$pre_previous=$previous;
 		$previous=$current;	
 	}
 	if ($prob_pos>$prob_neg and $prob_pos-$prob_neg>0.5)
+	{
+		fwrite($logic,"Sentence is Positive \n");
+		fwrite($logic,"----------------------------------------------------------------\n");
 		return 0;
+	}
 	else if ($prob_pos<$prob_neg and $prob_neg-$prob_pos>0.5)
+	{
+		fwrite($logic,"Sentence is Negative \n");
+		fwrite($logic,"----------------------------------------------------------------\n");
 		return 4;
+	}
 	else
+	{
+		fwrite($logic,"Sentence is Neutral \n");
+		fwrite($logic,"----------------------------------------------------------------\n");
 		return 2;
+	}
 }
-
 	#Creates the associative array for the training set
 	$trained_file = fopen("Classifier/Trained Set.txt","r");
 	$trained_set=array();
@@ -290,11 +339,15 @@ function naive_bayes($str)
 	$sentiment_arr=array();
 	$p=0;$n=0;
 	
+	####To store the logic being used for classification
+	$logic = fopen("Classifier/Logic.txt","w");
+	
 	#Opens the file with tweets to read
 	$original = fopen("Classifier/Tweets.txt","r");
 	while(!feof($original))
 	{
 		$line=fgets($original);
+		fwrite($logic,"Tweet: $line");
 		if($line!="")
 		{
 			$mod=pre_process($line);
@@ -345,7 +398,7 @@ function naive_bayes($str)
 	}
 	
 	#Adding the values of $p and $n to the trend analysis table
-	$con=mysqli_connect("208.115.198.220","a5e4629f_chelsea","sentimentproject","a5e4629f_twit_sentiment");
+	$con=mysqli_connect("localhost","twit_sentiment","chelsea12","twit_sentiment");
 	if (mysqli_connect_errno())
 		echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
