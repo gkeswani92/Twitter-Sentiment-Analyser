@@ -18,7 +18,7 @@
 	$query_mod=$query." -http"." -https"." -RT";
 
 	//result_type can be recent, popular or mixed 
-	$array=array("lang"=>"en","count"=>"100","q"=>$query_mod,"result_type"=>"mixed");
+	$array=array("lang"=>"en","count"=>"50","q"=>$query_mod,"result_type"=>"mixed");
 
 	//Creating the connection and storing it in code
 	$code = $connection->request($method, $connection->url($url),$array);
@@ -33,11 +33,17 @@
 	$objJson=json_decode($connection->response['response'],true);
 	
 	$data = array();
+	$picture = array();
+	$name = array();
+	$x=0;
+	
 	//To retrieve only the text information from the JSON file
-	foreach($objJson["statuses"] as $status) {
-		$data[] = array(
-			"text" => $status["text"]
-		);
+	foreach($objJson["statuses"] as $status) 
+	{
+		$data[] = array("text" => $status["text"]);
+		$picture[$status["text"]]=$objJson["statuses"][$x]["user"]["profile_image_url"];
+		$name[$status["text"]]=$objJson["statuses"][$x]["user"]["name"];
+		$x=$x+1;
 	}
 
 	//To send the tweets to the tweets.txt file
@@ -315,13 +321,27 @@ function naive_bayes($str)
 	echo "<center><div id='piechart_3d' style='width: 500px; height: 275px;'>";
 	echo "<script>drawChart(".$p.",".$n.");</script></div></center>";
 	
+	$tweet_arr = array_map('trim', $tweet_arr);
+	
 	#Displays the tweets in the table with the proper colour for sentiment
 	for($x=0;$x<count($tweet_arr);$x=$x+1)
 	{
-		if(intval($sentiment_arr[$x])==0)
-			echo "<table class='bordered'><tr><td bgcolor = '#E1F5A9' style='border-color:green'>".$tweet_arr[$x]."<br></td></tr></table>";
-		else	
-			echo "<table class='bordered'><tr><td bgcolor = '#F5A9A9' style='border-color:red'>".$tweet_arr[$x]."<br></td></tr></table>";
+		if(array_key_exists($tweet_arr[$x],$picture))
+		{
+			$link=$picture[$tweet_arr[$x]];
+			if(intval($sentiment_arr[$x])==0)
+			{
+				echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#E1F5A9' style='border-color:green'>";
+				echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+				echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
+			}
+			else
+			{
+				echo "<table class='bordered' style='table-layout: fixed;'><tr bgcolor = '#F5A9A9' style='border-color:red'>";
+				echo "<td style='width:75px; height=75px;'><img src='$link' style='border-radius: 25px 25px 25px 25px'></td>";
+				echo "<td style='vertical-align:middle'><b>".$name[$tweet_arr[$x]].":</b> ".$tweet_arr[$x]."<br></td></tr></table>";
+			}
+		}
 	}
 	
 	#Adding the values of $p and $n to the trend analysis table
@@ -355,4 +375,6 @@ function naive_bayes($str)
 		die('Error: '.mysqli_error($con));
 		
 	mysqli_close($con);
+	
+	#print_r($picture);
 ?>

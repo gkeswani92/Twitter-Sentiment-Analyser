@@ -61,14 +61,16 @@
 				-ms-transition: all 0.1s ease-in-out;
 				transition: all 0.1s ease-in-out;     
 			}    				
-			.bordered td, .bordered th {
+			.bordered td, .bordered th, .bordered tr {
 				border-left: 1px solid #ccc;
+				border-bottom: 1px solid #ccc;
 				border-top: 1px solid #ccc;
 				padding: 10px;
 				text-align: left;    
 			}
 			.bordered td:first-child, .bordered th:first-child {
 				border-left: none;
+				border-top: none;
 			}
 			.bordered tr:last-child td:first-child {
 				-moz-border-radius: 0 0 0 6px;
@@ -79,6 +81,8 @@
 				-moz-border-radius: 0 0 6px 0;
 				-webkit-border-radius: 0 0 6px 0;
 				border-radius: 0 0 6px 0;
+				border-left: none;
+				border-top: none;
 			}
 		</style>
 	</head>
