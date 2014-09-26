@@ -16,75 +16,48 @@
 		<!--Javascript for Google Charts API-->
 		<script type="text/javascript">
 			  google.load("visualization", "1", {packages:["corechart"]});
-			  function drawChart(pos,neg) {
+			  function drawChart1(pos,neg) {
 				var data = google.visualization.arrayToDataTable([
 				  ['Sentiment', 'Number of Tweets'],
 				  ['Positive',pos],
 				  ['Negative',neg]
 				]);
 				var options = {
-				  title: 'Sentiment by Percentage',
+				  title:'Sentiment by Percentage',
 				  is3D: true,
 				  colors: ['#00ff00', '#ff0000']
 				};
-				var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+				var chart = new google.visualization.PieChart(document.getElementById('piechart_3d_1'));
+				chart.draw(data, options);
+			  }
+			  function drawChart2(pos,neg) {
+				var data = google.visualization.arrayToDataTable([
+				  ['Sentiment', 'Number of Tweets'],
+				  ['Positive',pos],
+				  ['Negative',neg]
+				]);
+				var options = {
+				  title:'Sentiment by Percentage',
+				  is3D: true,
+				  colors: ['#00ff00', '#ff0000']
+				};
+				var chart = new google.visualization.PieChart(document.getElementById('piechart_3d_2'));
 				chart.draw(data, options);
 			  }
     </script>
 	
+	<style>
+	table, td, th, tr
+	{
+		border:0px solid white;
+	}
+	</style>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
 		</noscript>
-		<style>
-			table {
-			*border-collapse: collapse; /* IE7 and lower */
-			border-spacing: 0;
-			width: 100%;    
-			}
-			.bordered {
-				border: solid #ccc 1px;
-				-moz-border-radius: 6px;
-				-webkit-border-radius: 6px;
-				border-radius: 6px;
-				-webkit-box-shadow: 0 1px 1px #ccc; 
-				-moz-box-shadow: 0 1px 1px #ccc; 
-				box-shadow: 0 1px 1px #ccc;         
-			}
-			.bordered tr:hover {
-				background: #fbf8e9;
-				-o-transition: all 0.1s ease-in-out;
-				-webkit-transition: all 0.1s ease-in-out;
-				-moz-transition: all 0.1s ease-in-out;
-				-ms-transition: all 0.1s ease-in-out;
-				transition: all 0.1s ease-in-out;     
-			}    				
-			.bordered td, .bordered th, .bordered tr {
-				border-left: 1px solid #ccc;
-				border-bottom: 1px solid #ccc;
-				border-top: 1px solid #ccc;
-				padding: 10px;
-				text-align: left;    
-			}
-			.bordered td:first-child, .bordered th:first-child {
-				border-left: none;
-				border-top: none;
-			}
-			.bordered tr:last-child td:first-child {
-				-moz-border-radius: 0 0 0 6px;
-				-webkit-border-radius: 0 0 0 6px;
-				border-radius: 0 0 0 6px;
-			}
-			.bordered tr:last-child td:last-child {
-				-moz-border-radius: 0 0 6px 0;
-				-webkit-border-radius: 0 0 6px 0;
-				border-radius: 0 0 6px 0;
-				border-left: none;
-				border-top: none;
-			}
-		</style>
 	</head>
 	<body class="left-sidebar">
 			<div id="wrapper">
@@ -93,17 +66,17 @@
 								<article class="is-post is-post-excerpt">
 									<header>								
 										<h2><a href="#">Twit Sentiment Analyser</a></h2>
-										<span class="byline">Discover the Twitter sentiment for your product or brand</span>
+										<span class="byline">Compare the Twitter sentiment for multiple products</span>
 									</header>
 									<?php
 										// Display the input form
 										$run = false;
-										require 'form.php';
+										require 'form_comparator.php';
 
 										// If the user clicked the Run button
 										// Execute the API request they entered
 										if ($run) {
-											require 'search.php';
+											require 'display_comparator.php';
 										}
 									?>									
 								</article>
@@ -116,9 +89,9 @@
 							</div>
 							<nav id="nav">
 								<ul>
-									<li class="current_page_item"><a href="#">Live Analysis</a></li>
+									<li><a href="index.php">Live Analysis</a></li>
 									<li><a href="historical.php">Historical Analysis</a></li>
-									<li><a href="comparator.php">Compare Brands</a></li>
+									<li class="current_page_item"><a href="#">Compare Brands</a></li>
 									<li><a href="about.php">About us</a></li>
 								</ul>
 							</nav>

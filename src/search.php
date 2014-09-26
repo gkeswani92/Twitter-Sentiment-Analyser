@@ -187,20 +187,20 @@ function naive_bayes($str)
 		#Sentiment due to smiley's
 		if(in_array($current,$possmiley))
 		{
-			$prob_pos=$prob_pos+1;
+			$prob_pos=$prob_pos+0.5;
 		}
 		if(in_array($current,$negsmiley))
 		{
-			$prob_neg=$prob_neg+1;
+			$prob_neg=$prob_neg+0.5;
 		}
 		
 		#Moving the previous word pointer forward
 		$pre_previous=$previous;
 		$previous=$current;	
 	}
-	if ($prob_pos>$prob_neg and $prob_pos-$prob_neg>0.25)
+	if ($prob_pos>$prob_neg and $prob_pos-$prob_neg>0.5)
 		return 0;
-	else if ($prob_pos<$prob_neg and $prob_neg-$prob_pos>0.25)
+	else if ($prob_pos<$prob_neg and $prob_neg-$prob_pos>0.5)
 		return 4;
 	else
 		return 2;

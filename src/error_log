@@ -5683,927 +5683,631 @@ Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[24-Feb-2014 23:05:00 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 14:59:25 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[24-Feb-2014 23:05:06 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:01:57 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[24-Feb-2014 23:06:14 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:03:55 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[24-Feb-2014 23:06:19 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:04:03 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 00:40:38 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:04:20 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 00:41:20 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:04:27 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 00:41:54 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:06:24 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 00:42:10 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:06:26 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 00:42:42 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:06:29 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 01:50:05 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:06:32 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:16:29 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:10:43 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:20:47 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:11:02 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:21:46 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:11:20 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:25:15 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:23:00 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:27:50 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:24:26 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:29:46 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:28:46 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
  in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 11:30:08 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 16:01:48 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 16:02:16 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[25-Feb-2014 16:18:56 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[26-Feb-2014 02:06:53 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[26-Feb-2014 02:07:01 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[26-Feb-2014 02:07:49 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[26-Feb-2014 02:08:18 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: eAccelerator: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/suhosin.so: cannot open shared object file: No such file or directory in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: PDO: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
-Module compiled with module API=20060613
-PHP    compiled with module API=20090626
-These options need to match
- in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
-[26-Feb-2014 02:08:47 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[27-Feb-2014 15:28:56 Asia/Kolkata] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
 Module compiled with module API=20060613
 PHP    compiled with module API=20090626
 These options need to match
